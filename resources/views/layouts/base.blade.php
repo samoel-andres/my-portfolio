@@ -6,12 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" href="{{ asset('logo.ico') }}">
 
     {{-- Bootstrap styles --}}
     <link rel="stylesheet" href="{{ asset('build/assets/app.css') }}">
 
     {{-- another styles --}}
+    <link rel="stylesheet" href="{{ asset('build/assets/css/styles.css') }}">
 
     {{-- changing styles --}}
     @yield('styles')
@@ -22,14 +23,16 @@
 <body>
     <div class="content">
         {{-- navbar include --}}
+        @include('layouts.navbar')
         
-        <div class="container">
+        <div class="container" id="body-content">
             <section>
                 @yield('content')
             </section>
         </div>
 
         {{-- footer include --}}
+        @include('layouts.footer')
 
         @yield('scripts')
 
