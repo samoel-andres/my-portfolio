@@ -21,24 +21,38 @@
 </head>
 
 <body>
-    <div class="content">
-        {{-- navbar include --}}
-        @include('layouts.navbar')
+    {{-- navbar include --}}
+     @include('layouts.navbar')
         
-        <div class="container" id="body-content">
-            <section>
-                @yield('content')
-            </section>
+    <div id="body-content">
+        <section>
+            @yield('content')
+        </section>
+
+        {{-- animated --}}
+        <div class="area">
+            <ul class="circles list-unstyled">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
-
-        {{-- footer include --}}
-        @include('layouts.footer')
-
-        @yield('scripts')
-
-        {{-- Bootstrap scripts --}}
-        <script src="{{ asset('build/assets/app.js') }}"></script>
     </div>
+
+    {{-- footer include --}}
+    @include('layouts.footer')
+
+    @yield('scripts')
+
+    {{-- Bootstrap scripts --}}
+    <script src="{{ asset('build/assets/app.js') }}"></script>
 </body>
 
 </html>

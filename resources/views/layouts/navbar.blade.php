@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg shadow">
+<nav class="z-1 navbar navbar-expand-lg shadow">
     <div class="container">
         <a href="{{ route('home.index') }}">
             <img alt="logo" src="{{ asset('build/assets/image/logo.png') }}" height="60">

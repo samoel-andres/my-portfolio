@@ -1,5 +1,5 @@
-<footer>
-    <div class="container border-top pt-4">
+<footer class="fixed-botom">
+    <div class=" container border-top pt-4">
         <div class="row align-items-center">
             <div class="col-md-6 text-center">
                 <span> &copy; Samoel Andres 2023 | Web developer</span>
