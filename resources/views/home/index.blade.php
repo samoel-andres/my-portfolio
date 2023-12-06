@@ -17,7 +17,7 @@
                 <div id="saam" class="row align-items-end" style="height: calc(100vh - 200px);">
                     <div class="col">
                         <h1 class="floating-5">SAMOEL ANDRES</h1>
-                        <a class="btn btn-animate floating-3" href="#">
+                        <a class="btn btn-animate floating-3" href="{{ route('about.index') }}">
                             <span>About me</span>
                             <svg width="13px" height="10px" viewBox="0 0 13 10">
                                 <path d="M1,5 L11,5"></path>

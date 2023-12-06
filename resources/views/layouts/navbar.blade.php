@@ -9,7 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarcontent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item m-1">
-                    <a class="nav-link" href="">
+                    <a class="nav-link" href="{{ route('home.index') }}">
                         Home
                     </a>
                 </li>
@@ -19,7 +19,7 @@
                     </a>
                 </li>
                 <li class="nav-item m-1">
-                    <a class="nav-link" href="">
+                    <a class="nav-link" href="{{ route('about.index') }}">
                         About
                     </a>
                 </li>
