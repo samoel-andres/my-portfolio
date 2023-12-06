@@ -1,4 +1,4 @@
-<nav class="z-1 navbar navbar-expand-lg shadow">
+<nav class="navbar navbar-expand-lg sticky-top" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -20px;">
     <div class="container">
         <a href="{{ route('home.index') }}">
             <img alt="logo" src="{{ asset('build/assets/image/logo.png') }}" height="60">

@@ -13,6 +13,7 @@
 
     {{-- another styles --}}
     <link rel="stylesheet" href="{{ asset('build/assets/css/styles.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/css/bgAnimation.css') }}">
 
     {{-- changing styles --}}
     @yield('styles')
@@ -22,33 +23,35 @@
 
 <body>
     {{-- navbar include --}}
-     @include('layouts.navbar')
+    @include('layouts.navbar')
         
+    {{-- body content --}}
     <div id="body-content">
         <section>
             @yield('content')
         </section>
+    </div>
 
-        {{-- animated --}}
-        <div class="area">
-            <ul class="circles list-unstyled">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
+    {{-- animated --}}
+    <div class="area">
+        <ul class="circles list-unstyled">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
 
     {{-- footer include --}}
     @include('layouts.footer')
 
+    {{-- another scripts --}}
     @yield('scripts')
 
     {{-- Bootstrap scripts --}}
