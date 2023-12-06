@@ -1,8 +1,8 @@
 @extends('layouts.base')
 
 @section('styles')
-<link rel="stylesheet" href="{{ asset('build/assets/css/ftgAnimation.css') }}">
-<link rel="stylesheet" href="{{ asset('build/assets/css/btnAnimation.css') }}">
+<link rel="stylesheet" href="{{ asset('build/assets/css/animation/ftgAnimation.css') }}">
+<link rel="stylesheet" href="{{ asset('build/assets/css/animation/btnAnimation.css') }}">
 @endsection
 
 @section('title', 'Samoel Andres')

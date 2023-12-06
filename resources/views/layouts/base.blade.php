@@ -13,7 +13,7 @@
 
     {{-- another styles --}}
     <link rel="stylesheet" href="{{ asset('build/assets/css/styles.css') }}">
-    <link rel="stylesheet" href="{{ asset('build/assets/css/bgAnimation.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/css/animation/bgAnimation.css') }}">
 
     {{-- changing styles --}}
     @yield('styles')
