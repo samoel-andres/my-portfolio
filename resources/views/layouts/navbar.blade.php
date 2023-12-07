@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li class="nav-item m-1">
-                    <a class="nav-link" href="">
+                    <a class="nav-link" href="{{ route('contact.index') }}">
                         Contact
                     </a>
                 </li>

@@ -8,6 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="{{ asset('logo.ico') }}">
 
+    {{-- csrf token --}}
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
     {{-- Bootstrap styles --}}
     <link rel="stylesheet" href="{{ asset('build/assets/app.css') }}">
 
