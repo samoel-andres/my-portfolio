@@ -10,36 +10,34 @@
 
 @section('content')
 <div class="container my-4">
-    <div class="row align-items-center" style="height: calc(100vh - 200px);">
+    <div class="row align-items-center">
         <div class="col-md-6">
-            <div class="row align-items-center"> 
-                <div class="col">
-                    <h1 class="floating-5" style="box-shadow: none;">SAMOEL ANDRES</h1>                       
-                    <p class="floating-5" style="box-shadow: none; color: #7d7d7d;">
-                        I'm from Mexico. I was born in Axochiapan, Morelos.<br>
-                        I'm 23 years. I like the web development (backend and frontend).<br>
-                        On my spare time I like watching documentaries about of the<br>
-                        universe and airplanes.
-                    </p>
-                    <a class="btn btn-animate floating-3" href="#">
-                        <span>My projects</span>
-                        <svg width="13px" height="10px" viewBox="0 0 13 10">
-                            <path d="M1,5 L11,5"></path>
-                            <polyline points="8 1 12 5 8 9"></polyline>
-                        </svg>
-                    </a>
-                </div>
+            <div class="col">
+                <h1 class="floating-5" style="box-shadow: none;">SAMOEL ANDRES</h1>                       
+                <p class="floating-5" style="box-shadow: none; color: #7d7d7d;">
+                    I'm from Mexico. I was born in Axochiapan, Morelos.<br>
+                    I'm 23 years. I like the web development (backend and frontend).<br>
+                    On my spare time I like watching documentaries about of the<br>
+                    universe and airplanes.
+                </p>
+                <a class="btn btn-animate floating-3" href="#">
+                    <span>My projects</span>
+                    <svg width="13px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </a>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="row align-items-center text-center">
+        <div class="col-md-6 top-2">
+            <div class="row text-center">
                 <div class="col">
                     <img src="{{ asset('build/assets/image/photo.png') }}" class="img-fluid floating-3" style="border-radius: 500px;" alt="photo">
                 </div>
             </div>
         </div>
     </div>
-    <div class="row justify-content-between my-5" style="padding-bottom: 1rem;">
+    <div class="row justify-content-between m-top-5 bg-white floating-5 p-top-05 border">
         <div class="col-md-2 floating-5" style="box-shadow: none;">
             <h5>Education</h5>                
             <p style="color: #7d7d7d; font-size: 12px;">
@@ -94,7 +92,7 @@
             </p>
         </div>
         <div class="col-md-2 floating-5" style="box-shadow: none;">
-            <h5>Courses/certifications</h5>
+            <h5>Courses & certifications</h5>
             <p style="color: #7d7d7d; font-size: 12px;">
                 Laravel developer<br>
                 Wordpress site developer<br>
@@ -103,4 +101,7 @@
         </div>
     </div>
 </div>
+
+{{-- footer include --}}
+@include('layouts.footer')
 @endsection

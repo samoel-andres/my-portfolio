@@ -51,9 +51,6 @@
         </ul>
     </div>
 
-    {{-- footer include --}}
-    @include('layouts.footer')
-
     {{-- another scripts --}}
     @yield('scripts')
 

@@ -11,7 +11,7 @@
 
 @section('content')
 <div class="container my-4">
-    <form class="row p-3 floating-5 bg-white border" method="POST" action="">
+    <form class="row p-3 floating-5 bg-white border" method="POST" action=""> 
         @csrf
         <h1 class="floating-5">CONTACT</h1>
         <div class="col-md-6 floating-4" style="box-shadow: none;">
@@ -98,5 +98,7 @@
         </div>
     </form>
 </div>
+
+{{-- footer include --}}
 @include('layouts.footer')
 @endsection
