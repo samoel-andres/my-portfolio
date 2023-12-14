@@ -1,4 +1,4 @@
-@extends('projects.index')
+@extends('layouts.base-details')
 
 @section('project')
 <div class="row text-end border">
