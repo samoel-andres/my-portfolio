@@ -20,7 +20,7 @@
                     On my spare time I like watching documentaries about of the<br>
                     universe and airplanes.
                 </p>
-                <a class="btn btn-animate floating-3" href="#">
+                <a class="btn btn-animate floating-3" href="{{ route('projects.index') }}">
                     <span>My projects</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
