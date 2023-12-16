@@ -5,10 +5,10 @@
     <div class="collapse show floating-4" id="projects-list" style="box-shadow: none;">
         <div class="list-group">
             <a class="list-group-item list-group-item-action a-style {!! (Request::path()) == 'projects/citas-web' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.citasweb') }}">
-                Dating system (web)
+                Dating system (Part 1)
             </a>
             <a class="list-group-item list-group-item-action a-style {!! (Request::path()) == 'projects/citas-api' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.citasapi') }}">
-                Dating system (API Rest)
+                Dating system (Part 2)
             </a>
             <a class="list-group-item list-group-item-action a-style {!! (Request::path()) == 'projects/blog' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.blog') }}">
                 Blog (web)
