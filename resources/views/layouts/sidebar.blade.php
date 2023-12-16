@@ -1,16 +1,16 @@
 <div class="col-md-3 col-md-4 py-1">
     <a role="button">
-        <h4 class="accordion bg-white  py-2" id="accordion" data-bs-toggle="collapse" href="#projects-list" aria-expanded="true" aria-controls="projects-list">My projects list</h4>
+        <h4 class="accordion bg-white py-2" id="accordion" data-bs-toggle="collapse" href="#projects-list" aria-expanded="true" aria-controls="projects-list">My projects list</h4>
     </a>
-    <div class="collapse show floating-4" id="projects-list" style="box-shadow: none;">
+    <div class="collapse show" id="projects-list">
         <div class="list-group">
-            <a class="list-group-item list-group-item-action a-style {!! (Request::path()) == 'projects/citas-web' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.citasweb') }}">
+            <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/citas-web' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.citasweb') }}">
                 Dating system (Part 1)
             </a>
-            <a class="list-group-item list-group-item-action a-style {!! (Request::path()) == 'projects/citas-api' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.citasapi') }}">
+            <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/citas-api' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.citasapi') }}">
                 Dating system (Part 2)
             </a>
-            <a class="list-group-item list-group-item-action a-style {!! (Request::path()) == 'projects/blog' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.blog') }}">
+            <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/blog' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.blog') }}">
                 Blog (web)
             </a>
         </div>
