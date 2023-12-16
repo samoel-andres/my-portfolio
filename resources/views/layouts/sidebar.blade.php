@@ -1,6 +1,6 @@
 <div class="col-md-3 col-md-4 py-1">
     <a role="button">
-        <h4 class="accordion bg-white floating-5 py-2" id="accordion" data-bs-toggle="collapse" href="#projects-list" aria-expanded="true" aria-controls="projects-list">My projects list</h4>
+        <h4 class="accordion bg-white  py-2" id="accordion" data-bs-toggle="collapse" href="#projects-list" aria-expanded="true" aria-controls="projects-list">My projects list</h4>
     </a>
     <div class="collapse show floating-4" id="projects-list" style="box-shadow: none;">
         <div class="list-group">

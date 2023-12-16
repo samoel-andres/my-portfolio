@@ -17,7 +17,7 @@
         @include('layouts.sidebar')
         
         {{-- content --}}
-        <div class="col-md-8 py-1 floating-5">
+        <div class="col-md-8 py-1">
             <div class="px-4 bg-white {!! (Request::path()) != 'projects' ? 'border' : '' !!}">
                 @yield('project')
             </div>
