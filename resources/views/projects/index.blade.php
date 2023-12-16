@@ -21,3 +21,16 @@
 {{-- footer incude --}}
 @include('layouts.footer')
 @endsection
+
+@section('scripts')
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+	$("#up i").on('click', function (event) {
+		event.preventDefault();
+		$("body,html").animate({
+			scrollTop: 0
+		}, 1500);
+		return false;
+	});
+</script>
+@endsection

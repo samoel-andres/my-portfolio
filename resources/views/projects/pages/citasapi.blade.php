@@ -268,6 +268,29 @@ NOT_SESSION_401
             <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_13.png') }}" alt="evidence-13">
         </div>
         <br>
+        <div class="row justify-content-around">
+            <div class="col text-start">
+                <a class="btn" href="{{ route('projects.citasweb') }}">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
+                        <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
+                    </svg>
+                    <span>Previous</span>
+                </a>
+            </div>
+            <div class="col text-center">
+                <a href="#" id="up" class="btn">
+                    <span>Slide up</span>
+                </a>
+            </div>
+            <div class="col text-end">
+                <a class="btn" href="{{ route('projects.blog') }}">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
+                        <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
+                    </svg>
+                    <span>Next</span>
+                </a>
+            </div>
+        </div>
     </main>
 </div>
 @endsection
