@@ -18,7 +18,7 @@
         <br><br><br>
         <h5>The challenge</h5>
         <p class="text-start" style="color: #7d7d7d;">
-            Develop some product or method to provide atenttion to news customers of the company, 
+            Develop some product or method to provide atenttion to new customers of the company, 
             receives many ever day and they are acumulated.
         </p>
         <h5>Solution</h5>
@@ -178,34 +178,51 @@
                 <br>
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
-                Communication with te API
+                Communication with the API
                 <p class="text-start ms-3" style="color: #7d7d7d;">
                     In this part displays only some fragments of TypeScript files, by protection cannot display
                     sensitivity code.
                 </p>
-                <div class="col-md-10 ms-3">
-                    <div id="other-evidences-carousel" class="carousel slide border" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_8.png') }}" alt="evidence-8">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_9.png') }}" alt="evidence-9">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev btn" type="button" data-bs-target="#other-evidences-carousel" data-bs-slide="prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
-                                <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
-                            </svg>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#other-evidences-carousel" data-bs-slide="next">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
-                                <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
-                            </svg>
-                        </button>
-                    </div>
+                <div class="col-auto ms-3" style="border-left: 1px solid #7d7d7d5c;">
+                    <pre class="ms-2">
+                        <code>
+/**
+* This function send a request to API, then checks the response received.
+* @param object-data 
+* @returns 
+*/
+singin(object-data: any) {
+    return this.httpClient.post(< destination >, < object-data >)
+        .pipe(map((response: any) => {
+            if (res.< value > === < value >) {
+                sessionStorage.setItem('a', response.< value >)
+                sessionStorage.setItem('b', response.< value >)
+                sessionStorage.setItem('c', response.< value >)
+                sessionStorage.setItem('d', response.< value >)
+                sessionStorage.setItem('d', response.< value >)
+            }
+        }))
+    }
+                        </code>
+                    </pre>
                 </div>
-                <br>
+                <div class="col-auto ms-3" style="border-left: 1px solid #7d7d7d5c;">
+                    <pre class="ms-2">
+                        <code>
+/**
+* This function send a request to API and return JSON object as response to component.
+* @param object-data
+* @returns
+*/
+search(object-data: any) {
+    return this.httpClient.post(< destination >, < object-data >)
+        .pipe(map((response: any) => {
+            return response
+        }))
+    }
+                        </code>
+                    </pre>
+                </div>
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
                 Results
@@ -226,9 +243,6 @@
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_4.png') }}" alt="result-4">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_5.png') }}" alt="result-5">
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_6.png') }}" alt="result-6">
@@ -276,9 +290,20 @@
         </ol>
         <h5 style="color: #006064;">Note</h5>
         <p class="text-start" style="color: #7d7d7d;">
-            The system processes, sends and receives data from and to the <a style="color: #006064;" href="{{ route('projects.citasapi') }}">API</a>. 
-            All components are protected by session validation active.
+            This App processes, sends and receives data from and to the <a style="color: #006064;" href="{{ route('projects.citasapi') }}">API</a>. 
+            All components are protected by session validation active and all information is cleaned, validated and
+            preformat before sends request to the API (in the API perform more filters, validates and checks). The 
+            examples displayed contain modifications and lines that were removed for privacy, integrity and security 
+            of the App.
         </p>
+        <h5 style="color: #006064;">Important</h5>
+        <p class="text-start" style="color: #7d7d7d;">
+            This project is private on my GitHub, but I attach evidence of the existence of 
+            the repository.
+        </p>
+        <div class="col-md-10">
+            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_14.png') }}" alt="evidence-14">
+        </div>
         <br>
     </main>
 </div>
