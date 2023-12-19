@@ -11,7 +11,7 @@
 
 @section('content')
 <div class="container my-4">
-    <form class="row p-3 floating-5 bg-white border" method="POST" action=""> 
+    <form class="row p-3 floating-5 bg-white border" method="POST" action="{{ route('send') }}"> 
         @csrf
         <h1 class="floating-5">CONTACT</h1>
         <div class="col-md-6 floating-4" style="box-shadow: none;">
@@ -68,7 +68,8 @@
                 @enderror
             </div>
         </div>
-        <div class="row m-2 text-end">
+        @if(!session('success-sends'))
+        <div class="row m-2 text-end">            
             <div class="col">
                 <button class="btn btn-animate floating-3" type="submit">
                     <span>Send</span>
@@ -79,6 +80,17 @@
                 </button>
             </div>
         </div>
+        @else
+        <div class="p-3">
+            <div class="alert alert-info d-flex align-items-center alert-dismissible fade show mt-4" role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <div class="ms-2">{{ session('success-sends') }}</div>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+        @endif
         <div class="row mt-4 mb-2">
             <div class="col-md-12">
                 <p style="margin: 0px 20px;" class="linea">

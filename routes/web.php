@@ -13,9 +13,8 @@ Route::get('/', [HomeController::class, 'index'])->name('home.index');
 Route::get('/about', [AboutController::class, 'index'])->name('about.index');
 
 // contact
-Route::resource('contact', ContactController::class)
-    ->only('index')
-    ->names('contact');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+Route::post('/contact', [ContactController::class, 'send'])->name('send');
 
 // projects
 Route::get('/projects', [ProjectsController::class, 'index'])->name('projects.index');
