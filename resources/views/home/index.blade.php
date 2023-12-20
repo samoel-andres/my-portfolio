@@ -14,6 +14,11 @@
         <div class="col-md-6">
             <div class="col">
                 <h1 class="floating-5" style="box-shadow: none;">SAMOEL ANDRES</h1>
+                <p class="floating-5" style="box-shadow: none; color: #7d7d7d;">
+                    Plased too meet you!<br>
+                    Welcome to my portfolio, I hope you like it and it is of
+                    interest to you.
+                </p>
                 <a class="btn btn-animate floating-3" href="{{ route('about.index') }}">
                     <span>About me</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">

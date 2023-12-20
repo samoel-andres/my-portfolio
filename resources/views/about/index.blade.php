@@ -13,12 +13,16 @@
     <div class="row align-items-center">
         <div class="col-md-6">
             <div class="col">
-                <h1 class="floating-5" style="box-shadow: none;">SAMOEL ANDRES</h1>                       
+                <h1 class="floating-5" style="box-shadow: none;">SAMOEL ANDRES</h1>        
                 <p class="floating-5" style="box-shadow: none; color: #7d7d7d;">
-                    I'm from Mexico. I was born in Axochiapan, Morelos.<br>
-                    I'm 23 years. I like the web development (backend and frontend).<br>
-                    On my spare time I like watching documentaries about of the<br>
-                    universe and airplanes.
+                    Samoel is a programmer focused on web development recently<br>
+                    graduated -- currently looking work.
+                </p>
+                <p class="floating-5" style="box-shadow: none; color: #7d7d7d;">
+                    He has worked on school projects and in some private companies.<br>
+                    He most recent archievement has been the development of an<br>
+                    appointment system, this last developed in school residences<br>
+                    together with one sompany private.
                 </p>
                 <a class="btn btn-animate floating-3" href="{{ route('projects.index') }}">
                     <span>My projects</span>
