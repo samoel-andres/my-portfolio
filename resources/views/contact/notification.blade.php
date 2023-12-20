@@ -25,10 +25,6 @@
     th, strong {
         color: #006064;
     }
-    
-    p {
-        padding: 5px 10px 5px 10px;
-    }
     </style>
 </head>
 <body>
@@ -42,14 +38,20 @@
         </thead>
         <tbody>
             <tr>
-                <td>{{ $contact['name'] }}</td>
+                <td>{{ strtoupper($contact['name']) }}</td>
                 <td>{{ $contact['email'] }}</td>
-                <td>{{ $contact['phone'] }}</td>
+                <td>{{ strtoupper($contact['phone']) }}</td>
             </tr>
         </tbody>
     </table>
     <br>
-    <strong>Subject: {{ $contact['subject'] }}</strong>
-    <p>{{ $contact['msg'] }}</p>
+    <div>
+        <strong>Subject</strong>
+        <p>{{ strtoupper($contact['subject']) }}</p>
+    </div>
+    <div>
+        <strong>Message</strong>
+        <p>{{ strtoupper($contact['msg']) }}</p>
+    </div>
 </body>
 </html>
