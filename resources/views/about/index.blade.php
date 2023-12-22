@@ -2,7 +2,7 @@
 
 @section('styles')
 <link rel="stylesheet" href="{{ asset('build/assets/css/animation/ftgAnimation.css') }}">
-<link rel="stylesheet" href="{{ asset('build/assets/css/animation/btnanimation.css') }}">
+<link rel="stylesheet" href="{{ asset('build/assets/css/animation/btnAnimation.css') }}">
 <link rel="stylesheet" href="{{ asset('build/assets/css/about/about.css') }}">
 @endsection
 
