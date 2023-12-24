@@ -14,7 +14,7 @@
 <div class="row py-2">
     <main>
         <h3>Dating system (API)</h3>
-        <span>Backend</span>
+        <span>Backend (Nodejs, express, mongoose)</span>
         <br><br><br>
         <h5>The challenge</h5>
         <p class="text-start" style="color: #7d7d7d;">

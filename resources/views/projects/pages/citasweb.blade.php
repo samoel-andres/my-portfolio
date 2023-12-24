@@ -14,7 +14,7 @@
 <div class="row py-2">
     <main>
         <h3>Dating system (web)</h3>
-        <span>Frontend</span>
+        <span>Frontend (Angular 14.2.0)</span>
         <br><br><br>
         <h5>The challenge</h5>
         <p class="text-start" style="color: #7d7d7d;">
