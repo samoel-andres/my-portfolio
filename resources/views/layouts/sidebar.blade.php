@@ -23,3 +23,12 @@
         </svg>
     </a>
 </div>
+
+<div class="col-md-3 col-md-8 py-1 bg-white" style="display: {!! (Request::path()) == 'projects' ? '' : 'none' !!};">
+    <h3>Note</h3>
+    <p class="text-start" style="color: #7d7d7d;">
+        Consider that the information about the projects is summarized and informative, however,
+        you can see some codes in my <a style="color: #006064;" href="https://github.com/xxxSAV" target="_blank">GitHub</a>, 
+        some are private by instructions of the company for wich they were developed.
+    </p>
+</div>
