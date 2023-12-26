@@ -184,10 +184,10 @@
                     <pre class="ms-2">
                         <code>
 /**
-* This function send a request to API, then checks the response received.
-* @param object-data 
-* @returns 
-*/
+ * This function send a request to API, then checks the response received.
+ * @param object-data 
+ * @returns 
+ */
 singin(object-data: any) {
     return this.httpClient.post(< destination >, < object-data >)
         .pipe(map((response: any) => {
@@ -207,10 +207,10 @@ singin(object-data: any) {
                     <pre class="ms-2">
                         <code>
 /**
-* This function send a request to API and return JSON object as response to component.
-* @param object-data
-* @returns
-*/
+ * This function send a request to API and return JSON object as response to component.
+ * @param object-data
+ * @returns
+ */
 search(object-data: any) {
     return this.httpClient.post(< destination >, < object-data >)
         .pipe(map((response: any) => {
