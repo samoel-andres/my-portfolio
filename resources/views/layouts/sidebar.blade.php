@@ -1,4 +1,4 @@
-<div class="col-md-3 col-md-4 py-1">
+<div class="col-md-3 col-md-4 py-1 bg-white">
     <a role="button">
         <h4 class="accordion bg-white py-2" id="accordion" data-bs-toggle="collapse" href="#projects-list" aria-expanded="true" aria-controls="projects-list">My projects list</h4>
     </a>
