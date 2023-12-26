@@ -224,7 +224,7 @@ search(object-data: any) {
             <li class="list-group-item bg-white" style="color: #006064;">
                 Results
                 <p class="text-start ms-3" style="color: #7d7d7d">
-                    Finallly this is the results of my work.
+                    Finally, this is the results of my work.
                 </p>
                 <div class="col-md-10 ms-3">
                     <div id="results-carousel" class="carousel slide border" data-bs-ride="carousel">
