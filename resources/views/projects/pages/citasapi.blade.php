@@ -264,7 +264,7 @@ NOT_SESSION_401
             the repository.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_13.png') }}" alt="evidence-13">
+            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_13.webp') }}" alt="evidence-13">
         </div>
         <br>
         <div class="row justify-content-around">

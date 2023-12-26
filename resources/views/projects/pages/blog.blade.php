@@ -193,17 +193,17 @@ public function rules(): array {
                 <div class="col-md-10 ms-3">
                     <div id="evidence-carousel" class="carousel slide border" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_15.png') }}" alt="evidence-15">
+                            <div class="carousel-item active text-center" data-bs-interval="9500">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_15.webp') }}" alt="evidence-15">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_16.png') }}" alt="evidence-16">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_16.webp') }}" alt="evidence-16">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_17.png') }}" alt="evidence-17">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_17.webp') }}" alt="evidence-17">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_18.png') }}" alt="evidence-18">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_18.webp') }}" alt="evidence-18">
                             </div>
                         </div>
                         <button class="carousel-control-prev btn" type="button" data-bs-target="#evidence-carousel" data-bs-slide="prev">
@@ -228,26 +228,26 @@ public function rules(): array {
                 <div class="col-md-10 ms-3">
                     <div id="results-carousel" class="carousel slide border" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_11.png') }}" alt="result_11">
+                            <div class="carousel-item active text-center" data-bs-interval="10000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_11.webp') }}" alt="result-11">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_12.png') }}" alt="result_12">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_12.webp') }}" alt="result-12">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_13.png') }}" alt="result_13">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_13.webp') }}" alt="result-13">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_14.png') }}" alt="result_14">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_14.webp') }}" alt="result-14">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_15.png') }}" alt="result_15">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_15.webp') }}" alt="result-15">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_16.png') }}" alt="result_16">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_16.webp') }}" alt="result-16">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_17.png') }}" alt="result_17">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_17.webp') }}" alt="result-17">
                             </div>
                         </div>
                         <button class="carousel-control-prev btn" type="button" data-bs-target="#results-carousel" data-bs-slide="prev">
@@ -271,7 +271,7 @@ public function rules(): array {
             large screen, for example: PC or Laptop. I attach evidence of the existence of the repository.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_19.png') }}" alt="evidence-19">
+            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_19.webp') }}" alt="evidence-19">
         </div>
         <br>
         <div class="row justify-content-around">

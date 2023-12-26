@@ -45,23 +45,23 @@
                 <div class="col-md-10 ms-3">
                     <div id="low-fidelity-carousel" class="carousel slide border" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_1.png') }}" alt="design-low-fidelity-1">
+                            <div class="carousel-item active text-center" data-bs-interval="9000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_1.webp') }}" alt="design-low-fidelity-1">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_2.png') }}" alt="design-low-fidelity-2">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_2.webp') }}" alt="design-low-fidelity-2">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_3.png') }}" alt="design-low-fidelity-3">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_3.webp') }}" alt="design-low-fidelity-3">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_4.png') }}" alt="design-low-fidelity-4">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_4.webp') }}" alt="design-low-fidelity-4">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_5.png') }}" alt="design-low-fidelity-5">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_5.webp') }}" alt="design-low-fidelity-5">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_6.png') }}" alt="design-low-fidelity-6">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_6.webp') }}" alt="design-low-fidelity-6">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#low-fidelity-carousel" data-bs-slide="prev">
@@ -86,32 +86,32 @@
                 <div class="col-md-10 ms-3">
                     <div id="high-fidelity-carousel" class="carousel slide border" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_1.png') }}" alt="design-high-fidelity-1">
+                            <div class="carousel-item active text-center" data-bs-interval="10000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_1.webp') }}" alt="design-high-fidelity-1">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_2.png') }}" alt="design-high-fidelity-2">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_2.webp') }}" alt="design-high-fidelity-2">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_3.png') }}" alt="design-high-fidelity-3">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_3.webp') }}" alt="design-high-fidelity-3">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_4.png') }}" alt="design-high-fidelity-4">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_4.webp') }}" alt="design-high-fidelity-4">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_6.png') }}" alt="design-high-fidelity-6">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_6.webp') }}" alt="design-high-fidelity-6">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_7.png') }}" alt="design-high-fidelity-7">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_7.webp') }}" alt="design-high-fidelity-7">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_8.png') }}" alt="design-high-fidelity-8">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_8.webp') }}" alt="design-high-fidelity-8">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_9.png') }}" alt="design-high-fidelity-9">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_9.webp') }}" alt="design-high-fidelity-9">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_10.png') }}" alt="design-high-fidelity-10">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_10.webp') }}" alt="design-high-fidelity-10">
                             </div>
                         </div>
                         <button class="carousel-control-prev btn" type="button" data-bs-target="#high-fidelity-carousel" data-bs-slide="prev">
@@ -138,26 +138,26 @@
                 <div class="col-md-10 ms-3">
                     <div id="evidences-carousel" class="carousel slide border" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_1.png') }}" alt="evidence-1">
+                            <div class="carousel-item active text-center" data-bs-interval="9500">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_1.webp') }}" alt="evidence-1">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_2.png') }}" alt="evidence-2">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_2.webp') }}" alt="evidence-2">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_3.png') }}" alt="evidence-3">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_3.webp') }}" alt="evidence-3">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_4.png') }}" alt="evidence-4">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_4.webp') }}" alt="evidence-4">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_5.png') }}" alt="evidence-5">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_5.webp') }}" alt="evidence-5">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_6.png') }}" alt="evidence-6">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_6.webp') }}" alt="evidence-6">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_7.png') }}" alt="evidence-7">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_7.webp') }}" alt="evidence-7">
                             </div>
                         </div>
                         <button class="carousel-control-prev btn" type="button" data-bs-target="#evidences-carousel" data-bs-slide="prev">
@@ -229,29 +229,29 @@ search(object-data: any) {
                 <div class="col-md-10 ms-3">
                     <div id="results-carousel" class="carousel slide border" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_1.png') }}" alt="result-1">
+                            <div class="carousel-item active text-center" data-bs-interval="9000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_1.webp') }}" alt="result-1">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_2.png') }}" alt="result-2">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_2.webp') }}" alt="result-2">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_3.png') }}" alt="result-3">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_3.webp') }}" alt="result-3">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_4.png') }}" alt="result-4">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_4.webp') }}" alt="result-4">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_6.png') }}" alt="result-6">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_6.webp') }}" alt="result-6">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_7.png') }}" alt="result-7">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_7.webp') }}" alt="result-7">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_8.png') }}" alt="result-8">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_8.webp') }}" alt="result-8">
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_9.png') }}" alt="result-9">
+                            <div class="carousel-item text-center" data-bs-interval="2000">
+                                <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_9.webp') }}" alt="result-9">
                             </div>
                         </div>
                         <button class="carousel-control-prev btn" type="button" data-bs-target="#results-carousel" data-bs-slide="prev">
@@ -268,7 +268,7 @@ search(object-data: any) {
                 </div>
                 <br>
                 <div class="col-md-10 ms-3 border">
-                    <img class="img-fluid" src="{{ asset('build/assets/image/other/result_devices.png') }}" alt="result-devices">
+                    <img class="img-fluid" src="{{ asset('build/assets/image/other/result_devices.webp') }}" alt="result-devices">
                 </div>
                 <br>
             </li>
@@ -280,7 +280,7 @@ search(object-data: any) {
                     be configure by some user with role as Admin.
                 </p>
                 <div class="col-md-10 ms-3">
-                    <img class="img-fluid border" src="{{ asset('build/assets/image/other/result_10.png') }}" alt="result-10">
+                    <img class="img-fluid border" src="{{ asset('build/assets/image/other/result_10.webp') }}" alt="result-10">
                 </div>
                 <br>
             </li>
@@ -299,7 +299,7 @@ search(object-data: any) {
             the repository.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_14.png') }}" alt="evidence-14">
+            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_14.webp') }}" alt="evidence-14">
         </div>
         <br>
         <div class="row justify-content-around">

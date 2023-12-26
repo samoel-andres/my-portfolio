@@ -31,7 +31,7 @@
         <div class="col-md-6 top-2">
             <div class="row text-center">
                 <div class="col">
-                    <img src="{{ asset('build/assets/image/photo.png') }}" class="img-fluid floating-3" style="border-radius: 500px;" alt="photo">
+                    <img src="{{ asset('build/assets/image/photo.webp') }}" class="img-fluid floating-3" style="border-radius: 500px;" alt="photo-samoel-andres">
                 </div>
             </div>
         </div>
