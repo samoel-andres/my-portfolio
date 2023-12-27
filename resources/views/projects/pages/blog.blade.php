@@ -206,12 +206,12 @@ public function rules(): array {
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_18.webp') }}" alt="evidence-18">
                             </div>
                         </div>
-                        <button class="carousel-control-prev btn" type="button" data-bs-target="#evidence-carousel" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#evidence-carousel" data-bs-slide="prev" name="prev-evidences">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#evidence-carousel" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#evidence-carousel" data-bs-slide="next" name="next-evidences">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
@@ -250,12 +250,12 @@ public function rules(): array {
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_17.webp') }}" alt="result-17">
                             </div>
                         </div>
-                        <button class="carousel-control-prev btn" type="button" data-bs-target="#results-carousel" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#results-carousel" data-bs-slide="prev" name="prev-results">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#results-carousel" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#results-carousel" data-bs-slide="next" name="next-results">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>

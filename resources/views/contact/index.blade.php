@@ -13,7 +13,7 @@
 <div class="container my-4">
     <form class="row p-3 floating-5 bg-white border" method="POST" action="{{ route('send') }}"> 
         @csrf
-        <h1 class="floating-5">CONTACT</h1>
+        <h1 class="floating-5" style="box-shadow: none;">CONTACT</h1>
         <div class="col-md-6 floating-4" style="box-shadow: none;">
             <div class="col-md-12">
                 <label for="name" class="form-label" style="color: #7d7d7d;">Your name</label>

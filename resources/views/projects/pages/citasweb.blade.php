@@ -64,12 +64,12 @@
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_6.webp') }}" alt="design-low-fidelity-6">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#low-fidelity-carousel" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#low-fidelity-carousel" data-bs-slide="prev" name="prev-low-fidelity">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#low-fidelity-carousel" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#low-fidelity-carousel" data-bs-slide="next" name="next-low-fidelity">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
@@ -114,12 +114,12 @@
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_10.webp') }}" alt="design-high-fidelity-10">
                             </div>
                         </div>
-                        <button class="carousel-control-prev btn" type="button" data-bs-target="#high-fidelity-carousel" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#high-fidelity-carousel" data-bs-slide="prev" name="prev-high-fidelity">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#high-fidelity-carousel" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#high-fidelity-carousel" data-bs-slide="next" name="next-high-felidity">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
@@ -160,12 +160,12 @@
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_7.webp') }}" alt="evidence-7">
                             </div>
                         </div>
-                        <button class="carousel-control-prev btn" type="button" data-bs-target="#evidences-carousel" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#evidences-carousel" data-bs-slide="prev" name="prev-evidences">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#evidences-carousel" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#evidences-carousel" data-bs-slide="next" name="next-evidences">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
@@ -254,12 +254,12 @@ search(object-data: any) {
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_9.webp') }}" alt="result-9">
                             </div>
                         </div>
-                        <button class="carousel-control-prev btn" type="button" data-bs-target="#results-carousel" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#results-carousel" data-bs-slide="prev" name="prev-results">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#results-carousel" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#results-carousel" data-bs-slide="next" name="next-results">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
