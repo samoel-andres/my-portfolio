@@ -13,7 +13,7 @@
 </div>
 <div class="row py-2">
     <main>
-        <h3>Blog (web)</h3>
+        <h3>Blog web</h3>
         <span>Frontend & backend (Laravel with PHP 8.1, MySQL)</span>
         <br><br><br>
         <h5>The challenge</h5>
@@ -276,7 +276,7 @@ public function rules(): array {
         <br>
         <div class="row justify-content-around">
             <div class="col text-start">
-                <a class="btn" href="{{ route('projects.citasapi') }}">
+                <a class="btn" href="{{ route('projects.portfolio') }}">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
                         <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                     </svg>

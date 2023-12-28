@@ -45,4 +45,14 @@ class ProjectsController extends Controller
     {
         return view('projects.pages.blog');
     }
+
+    /**
+     * Show project detail.
+     * 
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function portfolio()
+    {
+        return view('projects.pages.portfolio');
+    }
 }

@@ -5,13 +5,16 @@
     <div class="collapse show" id="projects-list">
         <div class="list-group">
             <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/citas-web' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.citasweb') }}">
-                Dating system (frontend)
+                Dating system web
             </a>
             <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/citas-api' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.citasapi') }}">
-                Dating system (backend)
+                Dating system (API)
+            </a>
+            <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/my-portfolio' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.portfolio') }}">
+                My portfolio web
             </a>
             <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/blog' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.blog') }}">
-                Blog (web)
+                Blog web
             </a>
         </div>
     </div>

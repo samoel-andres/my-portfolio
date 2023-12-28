@@ -13,7 +13,7 @@
 </div>
 <div class="row py-2">
     <main>
-        <h3>Dating system (web)</h3>
+        <h3>Dating system web</h3>
         <span>Frontend (Angular 14.2.0)</span>
         <br><br><br>
         <h5>The challenge</h5>
