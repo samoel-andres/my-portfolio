@@ -18,6 +18,7 @@
     {{-- another styles --}}
     <link rel="stylesheet" href="{{ asset('build/assets/css/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('build/assets/css/animation/bgAnimation.css') }}">
+    <link rel="stylesheet" href="{{ asset('build/assets/css/animation/fadeinAnimation.css') }}">
 
     {{-- changing styles --}}
     @yield('styles')

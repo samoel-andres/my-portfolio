@@ -1,4 +1,4 @@
-<div class="col-md-3 col-md-4 py-1 bg-white">
+<div class="col-md-3 col-md-4 py-1 bg-white {!! (Request::path()) == 'projects' ? 'fade-in' : '' !!}">
     <a role="button">
         <h4 class="accordion bg-white py-2" id="accordion" data-bs-toggle="collapse" href="#projects-list" aria-expanded="true" aria-controls="projects-list">My projects list</h4>
     </a>
@@ -27,7 +27,7 @@
     </a>
 </div>
 
-<div class="col-md-3 col-md-8 py-1 bg-white" style="display: {!! (Request::path()) == 'projects' ? '' : 'none' !!};">
+<div class="col-md-3 col-md-8 py-1 bg-white fade-in" style="display: {!! (Request::path()) == 'projects' ? '' : 'none' !!};">
     <h3>Notice</h3>
     <p class="text-start" style="color: #7d7d7d;">
         Consider that the information about the projects is summarized and informative, however,

@@ -9,7 +9,7 @@
 @section('title', 'Samoel Andres')
 
 @section('content')
-<div class="container my-4">
+<div class="container my-4 fade-in">
     <div class="row align-items-end mh-all">
         <div class="col-md-6">
             <div class="col">

@@ -1,7 +1,7 @@
 @extends('layouts.base-details')
 
 @section('project')
-<div class="row text-end">
+<div class="row text-end fade-in">
     <div class="col">
         <a class="btn" href="{{ route('projects.index') }}">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
@@ -11,7 +11,7 @@
         </a>
     </div>
 </div>
-<div class="row py-2">
+<div class="row py-2 fade-in">
     <main>
         <h3>Dating system (API)</h3>
         <span>Backend (Nodejs, express, mongoose)</span>
