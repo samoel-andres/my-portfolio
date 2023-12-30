@@ -13,11 +13,11 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h5>My portfolio web</h5>
+        <h3>My portfolio web</h3>
         <span>Frontend (Laravel with PHP 8.1)</span>
         <br><br><br>
         <h5>The challenge</h5>
-        <p class="text-start" style="color: #7d7d7d;">
+        <p class="text-start" style="color: #535353;">
             Develop a personal web to display information about of me (short information personal,
             work history/projects done and education). This to endorse my work experience and with
             curricular porpouses.
@@ -26,7 +26,7 @@
         <ol class="list-group list-group-numbered">
             <li class="list-group-item bg-white" style="color: #006064;">
                 Design of views (low fidelity)
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     Having clear the objetive of the development, I started with ideas for the site 
                     views.
                 </p>
@@ -43,12 +43,12 @@
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/low_fidelity_9.webp') }}" alt="design-low-fidelity-9">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#low-fidelity-carousel" data-bs-slide="prev" name="prev-low-fidelity">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#low-fidelity-carousel" data-bs-slide="prev" name="prev-low-fidelity" id="prev-low-fidelity">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#low-fidelity-carousel" data-bs-slide="next" name="next-low-fidelity">
+                        <button class="carousel-control-next" type="button" data-bs-target="#low-fidelity-carousel" data-bs-slide="next" name="next-low-fidelity" id="next-low-fidelity">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
@@ -59,7 +59,7 @@
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
                 Design of views (high fidelity)
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     In this step, I realized those ideas in high fidelity before laying then out.
                 </p>
                 <div class="col-md-10 ms-3">
@@ -84,12 +84,12 @@
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/high_fidelity_14.webp') }}" alt="design-high-fidelity-14">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#high-fidelity-carousel" data-bs-slide="prev" name="prev-high-fidelity">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#high-fidelity-carousel" data-bs-slide="prev" name="prev-high-fidelity" id="prev-high-fidelity">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#high-fidelity-carousel" data-bs-slide="next" name="next-high-fidelity">
+                        <button class="carousel-control-next" type="button" data-bs-target="#high-fidelity-carousel" data-bs-slide="next" name="next-high-fidelity" id="next-high-fidelity">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
@@ -100,7 +100,7 @@
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
                 Make views
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     The views are rendered dynamically, are extensions of a base to avoid
                     writing code repeatedly.
                 </p>
@@ -114,12 +114,12 @@
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_21.webp') }}" alt="evidence-12">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#evidence-carousel" data-bs-slide="prev" name="prev-evidence">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#evidence-carousel" data-bs-slide="prev" name="prev-evidence" id="prev-evidence">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#evidence-carousel" data-bs-slide="next" name="next-evidence">
+                        <button class="carousel-control-next" type="button" data-bs-target="#evidence-carousel" data-bs-slide="next" name="next-evidence" id="next-evidence">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
@@ -130,7 +130,7 @@
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
                 Results
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     The image is illustrative, the results is this site that you are viewing.
                 </p>
                 <div class="col-md-10 ms-3">
@@ -140,7 +140,7 @@
             </li>
         </ol>
         <h5 style="color: #006064;">Note</h5>
-        <p class="text-start" style="color: #7d7d7d;">
+        <p class="text-start" style="color: #535353;">
             This is a personal project, I hope you like it and it is of interest to you, if you wish you can contact me
             through <a style="color: #006064;" href="{{ route('contact.index') }}">my contact page</a>. You can view the
             code of this project on my <a style="color: #006064;" href="https://github.com/xxxSAV" target="_blank">GitHub</a>, 

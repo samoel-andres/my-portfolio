@@ -7,7 +7,7 @@
     <title>Notification - Samoel Andres</title>
     <style type=text/css>
     html, body {
-        color: #7d7d7d;
+        color: #535353;
         font-family: sans-serif;
         font-size: 16px;
     }

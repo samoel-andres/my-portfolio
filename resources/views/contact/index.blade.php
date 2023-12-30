@@ -16,7 +16,7 @@
         <h1 class="floating-5" style="box-shadow: none;">CONTACT</h1>
         <div class="col-md-6 floating-4" style="box-shadow: none;">
             <div class="col-md-12">
-                <label for="name" class="form-label" style="color: #7d7d7d;">Your name</label>
+                <label for="name" class="form-label" style="color: #535353;">Your name</label>
                 <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}" required autofocus>
 
                 @error('name')
@@ -26,7 +26,7 @@
                 @enderror
             </div>
             <div class="col-md-12">
-                <label for="email" class="form-label" style="color: #7d7d7d;">Your email address</label>
+                <label for="email" class="form-label" style="color: #535353;">Your email address</label>
                 <input type="email" class="form-control" id="email" name="email" value="{{ old('email') }}" required>
 
                 @error('emali')
@@ -36,7 +36,7 @@
                 @enderror
             </div>
             <div class="col-md-12">
-                <label for="phone" class="form-label" style="color: #7d7d7d;">Your phone number</label>
+                <label for="phone" class="form-label" style="color: #535353;">Your phone number</label>
                 <input type="text" class="form-control" id="phone" name="phone" value="{{ old('phone') }}" required>
 
                 @error('phone')
@@ -48,7 +48,7 @@
         </div>
         <div class="col-md-6 floating-4" style="box-shadow: none;">
             <div class="col-md-12">
-                <label for="subject" class="form-label" style="color: #7d7d7d;">Subject</label>
+                <label for="subject" class="form-label" style="color: #535353;">Subject</label>
                 <input type="text" class="form-control" id="subject" name="subject" value="{{ old('subject') }}" required>
 
                 @error('subject')
@@ -58,7 +58,7 @@
                 @enderror
             </div>
             <div class="col-md-12">
-                <label for="message" class="form-label" style="color: #7d7d7d;">Message</label>
+                <label for="message" class="form-label" style="color: #535353;">Message</label>
                 <textarea class="form-control" style="height: 105px" name="message" id="message" required></textarea>
 
                 @error('message')
@@ -109,7 +109,7 @@
                 </p>
             </div>
         </div>
-        <div id="contact" class="row mb-1 bottom-2" style="color: #7d7d7d">
+        <div id="contact" class="row mb-1 bottom-2" style="color: #535353">
             <div class="col-md-6 text-end">
                 <strong>Call me</strong>
                 <p class="text-end">55 6104 2249</p>

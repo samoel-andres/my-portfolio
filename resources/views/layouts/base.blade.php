@@ -9,6 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="{{ asset('logo.ico') }}">
 
+    {{-- font swap --}}
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
     {{-- csrf token --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
 

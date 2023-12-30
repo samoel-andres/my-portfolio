@@ -14,11 +14,11 @@
         <div class="col-md-6">
             <div class="col">
                 <h1 class="floating-5" style="box-shadow: none;">SAMOEL ANDRES</h1>        
-                <p class="floating-5" style="box-shadow: none; color: #7d7d7d;">
+                <p class="floating-5" style="box-shadow: none; color: #535353;">
                     Samoel is a programmer focused on web development recently<br>
                     graduated -- currently looking work.
                 </p>
-                <p class="floating-5" style="box-shadow: none; color: #7d7d7d;">
+                <p class="floating-5" style="box-shadow: none; color: #535353;">
                     He has worked on school projects and in some private companies.<br>
                     He most recent archievement has been the development of an<br>
                     appointment system, this last developed in school residences<br>
@@ -44,7 +44,7 @@
     <div class="row justify-content-between m-top-5 bg-white floating-5 p-top-05 border">
         <div class="col-md-2 floating-5" style="box-shadow: none;">
             <h5>Education</h5>                
-            <p style="color: #7d7d7d; font-size: 12px;">
+            <p style="color: #535353; font-size: 12px;">
                 Instituto Tecnológico, Cuautla, Morelos<br>
                 Systems engineer<br>
                 2019 - 2023
@@ -56,7 +56,7 @@
         </div>
         <div class="col-md-2 floating-4" style="box-shadow: none;">
             <h5>Experience</h5>
-            <p style="color: #7d7d7d; font-size: 12px;">
+            <p style="color: #535353; font-size: 12px;">
                 Telmex<br>
                 Developer intern<br>
                 Dating system development<br>
@@ -70,7 +70,7 @@
         </div>
         <div class="col-md-2 floating-3" style="box-shadow: none;">
             <h5>Skills</h5>
-            <p style="color: #7d7d7d; font-size: 12px;">
+            <p style="color: #535353; font-size: 12px;">
                 Analysis<br>
                 Basic concepts of UX/UI<br>
                 Web development<br>
@@ -79,7 +79,7 @@
         </div>
         <div class="col-md-2 floating-4" style="box-shadow: none;">
             <h5>Technical skills</h5>
-            <p style="color: #7d7d7d; font-size: 12px;">
+            <p style="color: #535353; font-size: 12px;">
                 JavaScript<br>
                 MongoDB<br>
                 MySQL<br>
@@ -97,7 +97,7 @@
         </div>
         <div class="col-md-2 floating-5" style="box-shadow: none;">
             <h5>Courses & certifications</h5>
-            <p style="color: #7d7d7d; font-size: 12px;">
+            <p style="color: #535353; font-size: 12px;">
                 Laravel developer<br>
                 Wordpress site developer<br>
                 Node.js developer

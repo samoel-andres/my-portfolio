@@ -17,12 +17,12 @@
         <span>Frontend & backend (Laravel with PHP 8.1, MySQL)</span>
         <br><br><br>
         <h5>The challenge</h5>
-        <p class="text-start" style="color: #7d7d7d;">
+        <p class="text-start" style="color: #535353;">
             Develop a blog web, the users can be able login, post articles, add comments and they have
             an admin dashboard.
         </p>
         <h5>Solution</h5>
-        <p class="text-start" style="color: #7d7d7d;">
+        <p class="text-start" style="color: #535353;">
             Using some tools provided by Laravel I built the blog. Laravel UI --auth for the login page,
             Laravel UI bootstrap for style of site,I use a third party tool for the dashboar of 
             admin (AdminLTE) and finally, I use MySQL to manage the data of users, articles, etc.
@@ -31,11 +31,11 @@
         <ol class="list-group list-group-numbered">
             <li class="list-group-item bg-white" style="color: #006064;">
                 Configure MySQL database
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     Beginning by configure the values to connect the App with MySQL. In this case,
                     our project is local, then the configures are local too.
                 </p>
-                <div class="col-auto ms-3" style="border-left: 1px solid #7d7d7d5c;">
+                <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
@@ -54,12 +54,12 @@ DB_PASSWORD=test_pass
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
                 Create models
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     The models help to excecute any action on the tables. When any migration is
                     excecuted; Laravel creates the database and tables based on our created migrations
                     and then we can create each model and add relation methods between tables.
                 </p>
-                <div class="col-auto ms-3" style="border-left: 1px solid #7d7d7d5c;">
+                <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
@@ -83,7 +83,7 @@ public function comments() {
                         </code>
                     </pre>
                 </div>
-                <div class="col-auto ms-3" style="border-left: 1px solid #7d7d7d5c;">
+                <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
@@ -110,12 +110,12 @@ public function category() {
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
                 Create routes and controllers
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     The routes handle views, information flow, etc. They required a
                     controller that renders, redirects or pasees information between 
                     views and returns a result, for example:
                 </p>
-                <div class="col-auto ms-3" style="border-left: 1px solid #7d7d7d5c;">
+                <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
@@ -156,11 +156,11 @@ public function destroy(Comment $comment) {
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
                 Data validation
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     The data validation is done by means of requests, in these are indicated
                     what is required for each record in the database.
                 </p>
-                <div class="col-auto ms-3" style="border-left: 1px solid #7d7d7d5c;">
+                <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
@@ -186,7 +186,7 @@ public function rules(): array {
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
                 Make views
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     In this case, the design of the views was provided by a teacher. 
                     The views are rendered dynamically.
                 </p>
@@ -206,12 +206,12 @@ public function rules(): array {
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_18.webp') }}" alt="evidence-18">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#evidence-carousel" data-bs-slide="prev" name="prev-evidences">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#evidence-carousel" data-bs-slide="prev" name="prev-evidences" id="prev-evidences">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#evidence-carousel" data-bs-slide="next" name="next-evidences">
+                        <button class="carousel-control-next" type="button" data-bs-target="#evidence-carousel" data-bs-slide="next" name="next-evidences" id="next-evidences">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
@@ -222,7 +222,7 @@ public function rules(): array {
             </li>
             <li class="list-group-item bg-white" style="color: #006064">
                 Results
-                <p class="text-start ms-3" style="color: #7d7d7d;">
+                <p class="text-start ms-3" style="color: #535353;">
                     Finally, this is the result of my work.
                 </p>
                 <div class="col-md-10 ms-3">
@@ -250,12 +250,12 @@ public function rules(): array {
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_17.webp') }}" alt="result-17">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#results-carousel" data-bs-slide="prev" name="prev-results">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#results-carousel" data-bs-slide="prev" name="prev-results" id="prev-results">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                             </svg>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#results-carousel" data-bs-slide="next" name="next-results">
+                        <button class="carousel-control-next" type="button" data-bs-target="#results-carousel" data-bs-slide="next" name="next-results" id="next-results">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#006064" viewBox="0 0 16 16">
                                 <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                             </svg>
@@ -266,7 +266,7 @@ public function rules(): array {
             </li>
         </ol>
         <h5 style="color: #006064;">Note</h5>
-        <p class="text-start" style="color: #7d7d7d;">
+        <p class="text-start" style="color: #535353;">
             This project was developed during a Laravel course, it was only considered for viewing on 
             large screen, for example: PC or Laptop. I attach evidence of the existence of the repository.
         </p>
