@@ -10,7 +10,7 @@
 @section('title', 'Contact - Samoel Andres')
 
 @section('content')
-<div class="container my-4 fade-in">
+<div class="container my-4 mb-5 fade-in">
     <form class="row p-3 floating-5 bg-white border" method="POST" action="{{ route('send') }}"> 
         @csrf
         <h1 class="floating-5" style="box-shadow: none;">CONTACT</h1>
