@@ -15,14 +15,14 @@
             <div class="col">
                 <h1 class="floating-5" style="box-shadow: none;">SAMOEL ANDRES</h1>        
                 <p class="floating-5" style="box-shadow: none; color: #535353;">
-                    Samoel is a programmer focused on web development recently<br>
-                    graduated -- currently looking work.
+                    Samoel is a programmer focused on web development (recently<br>
+                    graduated) -- currently he looking job.
                 </p>
                 <p class="floating-5" style="box-shadow: none; color: #535353;">
-                    He has worked on school projects and in some private companies.<br>
-                    He most recent archievement has been the development of an<br>
-                    appointment system, this last developed in school residences<br>
-                    together with one sompany private.
+                    He has worked on school projects and some private companies.<br>
+                    His most recent archievement has been the development of an<br>
+                    appointment system, this developed in school residences<br>
+                    for a private company.
                 </p>
                 <a class="btn btn-animate floating-3" href="{{ route('projects.index') }}">
                     <span>My projects</span>
@@ -57,14 +57,12 @@
         <div class="col-md-2 floating-4" style="box-shadow: none;">
             <h5>Experience</h5>
             <p style="color: #535353; font-size: 12px;">
-                Telmex<br>
+                Private<br>
                 Developer intern<br>
-                Dating system development<br>
                 March - September, 2023
                 <br><br>
                 Private<br>
                 Full stack developer<br>
-                Collaboration on hospital system development<br>
                 March - April, 2021
             </p>
         </div>
@@ -72,9 +70,8 @@
             <h5>Skills</h5>
             <p style="color: #535353; font-size: 12px;">
                 Analysis<br>
-                Basic concepts of UX/UI<br>
+                UX/UI Design<br>
                 Web development<br>
-                Algorithms
             </p>
         </div>
         <div class="col-md-2 floating-4" style="box-shadow: none;">
@@ -91,6 +88,9 @@
                 HTML5<br>
                 Git/GitHub<br>
                 Laravel<br>
+                PHP<br>
+                Adobe XD<br>
+                Figma<br>
                 Frontend<br>
                 Backend
             </p>
@@ -98,9 +98,12 @@
         <div class="col-md-2 floating-5" style="box-shadow: none;">
             <h5>Courses & certifications</h5>
             <p style="color: #535353; font-size: 12px;">
-                Laravel developer<br>
-                Wordpress site developer<br>
-                Node.js developer
+                Laravel<br>
+                Wordpress<br>
+                Node.js<br>
+                User Experience Design (UX/UI)<br>
+                Structure and Management database with MySQL<br>
+                PHP
             </p>
         </div>
     </div>
