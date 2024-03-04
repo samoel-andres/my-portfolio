@@ -32,6 +32,6 @@
     <p class="text-start" style="color: #535353;">
         Consider that the information about the projects is summarized and informative, however,
         you can see some codes in my <a style="color: #006064;" href="https://github.com/xxxSAV" target="_blank">GitHub</a>, 
-        some are private by instructions of the company for wich they were developed.
+        some are private by integrity of the company for wich they were developed.
     </p>
 </div>
