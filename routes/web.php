@@ -18,7 +18,7 @@ Route::post('/contact', [ContactController::class, 'send'])->name('send');
 
 // projects
 Route::get('/projects', [ProjectsController::class, 'index'])->name('projects.index');
-Route::get('/projects/citas-web', [ProjectsController::class, 'citasweb'])->name('projects.citasweb');
-Route::get('/projects/citas-api', [ProjectsController::class, 'citasapi'])->name('projects.citasapi');
-Route::get('/projects/blog', [ProjectsController::class, 'blog'])->name('projects.blog');
-Route::get('/projects/my-portfolio', [ProjectsController::class, 'portfolio'])->name('projects.portfolio');
+Route::get('/projects/web-development/citas', [ProjectsController::class, 'citasweb'])->name('projects.citasweb');
+Route::get('/projects/web-development/citas-api', [ProjectsController::class, 'citasapi'])->name('projects.citasapi');
+Route::get('/projects/web-development/blog', [ProjectsController::class, 'blog'])->name('projects.blog');
+Route::get('/projects/web-development/portfolio', [ProjectsController::class, 'portfolio'])->name('projects.portfolio');
