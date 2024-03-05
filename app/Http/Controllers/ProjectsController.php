@@ -23,7 +23,7 @@ class ProjectsController extends Controller
      */
     public function citasweb()
     {
-        return view('projects.pages.citasweb');
+        return view('projects.pages.development.citasweb');
     }
 
     /**
@@ -33,7 +33,7 @@ class ProjectsController extends Controller
      */
     public function citasapi()
     {
-        return view('projects.pages.citasapi');
+        return view('projects.pages.development.citasapi');
     }
 
     /**
@@ -43,7 +43,7 @@ class ProjectsController extends Controller
      */
     public function blog()
     {
-        return view('projects.pages.blog');
+        return view('projects.pages.development.blog');
     }
 
     /**
@@ -53,6 +53,6 @@ class ProjectsController extends Controller
      */
     public function portfolio()
     {
-        return view('projects.pages.portfolio');
+        return view('projects.pages.development.portfolio');
     }
 }
