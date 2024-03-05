@@ -24,7 +24,7 @@
         <h5>Solution</h5>
         <p class="text-start" style="color: #535353;">
             Using some tools provided by Laravel I built the blog. Laravel UI --auth for the login page,
-            Laravel UI bootstrap for style of site,I use a third party tool for the dashboar of 
+            Laravel UI bootstrap for style of site, I use a third party tool for the dashboar of 
             admin (AdminLTE) and finally, I use MySQL to manage the data of users, articles, etc.
         </p>
         <h5>Process</h5>
@@ -32,7 +32,7 @@
             <li class="list-group-item bg-white" style="color: #006064;">
                 Configure MySQL database
                 <p class="text-start ms-3" style="color: #535353;">
-                    Beginning by configure the values to connect the App with MySQL. In this case,
+                    Beginning by configure the values to connect the app with MySQL. In this case,
                     our project is local, then the configures are local too.
                 </p>
                 <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
@@ -111,9 +111,9 @@ public function category() {
             <li class="list-group-item bg-white" style="color: #006064;">
                 Create routes and controllers
                 <p class="text-start ms-3" style="color: #535353;">
-                    The routes handle views, information flow, etc. They required a
-                    controller that renders, redirects or pasees information between 
-                    views and returns a result, for example:
+                    The routes handle the views, information flow, etc. They're required a
+                    controller that render, redirect or pass information between 
+                    views and return a result, for example:
                 </p>
                 <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
@@ -157,8 +157,8 @@ public function destroy(Comment $comment) {
             <li class="list-group-item bg-white" style="color: #006064;">
                 Data validation
                 <p class="text-start ms-3" style="color: #535353;">
-                    The data validation is done by means of requests, in these are indicated
-                    what is required for each record in the database.
+                    The data validation is done by means of requests, internally in these are 
+                    indicated what require.
                 </p>
                 <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">

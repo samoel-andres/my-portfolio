@@ -13,7 +13,7 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>Dating system web</h3>
+        <h3>Web dating system</h3>
         <span>Frontend (Angular 14.2.0)</span>
         <br><br><br>
         <h5>The challenge</h5>
@@ -24,8 +24,8 @@
         <h5>Solution</h5>
         <p class="text-start" style="color: #535353;">
             My solution was SAAC; A web system that works like an diary. The system has
-            differents roles and each has differents functions and access different information,
-            this to protect sensitive information and optimize the process of atenttion.
+            differents roles and each has differents functions and access to different information,
+            this to protect sensitive information and optimize the attention process.
         </p>
         <h5>Process</h5>
         <ol class="list-group list-group-numbered">
@@ -311,10 +311,10 @@ search(object-data: any) {
             </div>
             <div class="col text-end">
                 <a class="btn" href="{{ route('projects.citasapi') }}">
+                    <span>Next</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
                         <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                     </svg>
-                    <span>Next</span>
                 </a>
             </div>
         </div>

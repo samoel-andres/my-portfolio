@@ -14,7 +14,7 @@
 <div class="row py-2 fade-in">
     <main>
         <h3>Dating system (API)</h3>
-        <span>Backend (Nodejs, express, mongoose)</span>
+        <span>Backend (Node.js, express.js, mongoose)</span>
         <br><br><br>
         <h5>The challenge</h5>
         <p class="text-start" style="color: #535353;">
@@ -32,28 +32,28 @@
             <li class="list-group-item bg-white" style="color: #006064;">
                 Scaffold of files
                 <p class="text-start ms-3" style="color: #535353;">
-                    As first step I established the scaffold to save each program file, this makes it an 
-                    orderly, scalable and easy to understand application.
+                    As first step I established the scaffold to save each program file, this make it an 
+                    orderly, scalable and easy to understand application. I'm using the MVC model.
                 </p>
                 <div class="col-auto ms-3">
-                    <ul class="list-group">
-                        <li class="list-group-item bg-white">+ config</li>
-                        <li class="list-group-item bg-white">+ controllers</li>
-                        <li class="list-group-item bg-white">+ middleware</li>
-                        <li class="list-group-item bg-white">+ models</li>
-                        <li class="list-group-item bg-white">+ routes</li>
-                        <li class="list-group-item bg-white">+ utils</li>
-                        <li class="list-group-item bg-white">+ validator</li>
-                    </ul>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item bg-white">config</li>
+                        <li class="list-group-item bg-white">controllers</li>
+                        <li class="list-group-item bg-white">middleware</li>
+                        <li class="list-group-item bg-white">models</li>
+                        <li class="list-group-item bg-white">routes</li>
+                        <li class="list-group-item bg-white">utils</li>
+                        <li class="list-group-item bg-white">validator</li>
+                    </ol>
                 </div>
                 <br>
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
-                File that starts the App
+                File that starts the app
                 <p class="text-start ms-3" style="color: #535353;">
                     In this file I create instances of tools as dotenv, express.js, cors and some config files.
                     Each tool have a different function, for example, dotenv help to manage enviroments variables
-                    inside App.
+                    inside app.
                 </p>
                 <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
@@ -91,7 +91,7 @@ dbConnect()
                     referring to customers, users and email configs. The routes create, read, update and delete information
                     on the database.
                 </p>
-                <div class="col-auto ms-3 ms-3" style="border-left: 1px solid #5353535c;">
+                <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 const express = require('express')
@@ -283,10 +283,10 @@ NOT_SESSION_401
             </div>
             <div class="col text-end">
                 <a class="btn" href="{{ route('projects.portfolio') }}">
+                    <span>Next</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
                         <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                     </svg>
-                    <span>Next</span>
                 </a>
             </div>
         </div>
