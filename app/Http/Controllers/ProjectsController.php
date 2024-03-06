@@ -65,4 +65,14 @@ class ProjectsController extends Controller
     {
         return view('projects.pages.design.portfolio');
     }
+
+    /**
+     * Show project detail.
+     * 
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function designOnstore()
+    {
+        return view('projects.pages.design.onstore');
+    }
 }

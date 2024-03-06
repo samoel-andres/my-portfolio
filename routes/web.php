@@ -27,3 +27,4 @@ Route::get('/projects/web-development/portfolio', [ProjectsController::class, 'p
 
 // projects - design
 Route::get('projects/ux-ui-design/portfolio', [ProjectsController::class, 'designPortfolio'])->name('projects.designportfolio');
+Route::get('projects/ux-ui-design/onstore-app', [ProjectsController::class, 'designOnstore'])->name('projects.designonstore');

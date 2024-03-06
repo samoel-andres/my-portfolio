@@ -12,6 +12,9 @@
                     <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/ux-ui-design/portfolio' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.designportfolio') }}">
                         My portfolio
                     </a>
+                    <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/ux-ui-design/onstore-app' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.designonstore') }}">
+                        Onstore (App)
+                    </a>
                 </div>
             </div>
         </div>
