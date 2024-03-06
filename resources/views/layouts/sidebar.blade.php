@@ -3,22 +3,18 @@
         <h4 class="accordion bg-white py-2" id="accordion" data-bs-toggle="collapse" href="#project-list" aria-expanded="true" aria-controls="project-list">Project list</h4>
     </a>
     <div class="collapse show" id="project-list">
-        {{-- IN PROGRESS --}}
-        {{-- <div class="list-group">
+        <div class="list-group">
             <a role="button">
-                <h4 class="accordion bg-white py-2 ms-1" id="accordion-2" data-bs-toggle="collapse" href="#design-section" aria-expanded="true" aria-controls="design-section">UX/UI Design</h4>
+                <h5 class="accordion bg-white py-2 ms-1" id="accordion-2" data-bs-toggle="collapse" href="#design-section" aria-expanded="true" aria-controls="design-section">UX/UI Design</h5>
             </a>
             <div class="collapse show" id="design-section">
                 <div class="list-group">
-                    <a class="list-group-item list-group-item-action {!! (Request::path()) == 'project/ux-ui-design/my-portfolio' ? 'bg-active' : 'bg-white' !!}" href="{{ route('project.portfolio') }}">
-                        Project name 1
-                    </a>
-                    <a class="list-group-item list-group-item-action {!! (Request::path()) == 'project/ux-ui-design/app-onstore' ? 'bg-active' : 'bg-white' !!}" href="{{ route('project.onstore') }}">
-                        Project name 2
+                    <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/ux-ui-design/portfolio' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.designportfolio') }}">
+                        My portfolio
                     </a>
                 </div>
             </div>
-        </div> --}}
+        </div>
         <div class="list-group">
             <a role="button">
                 <h5 class="accordion bg-white py-2 ms-1" id="accordion-3" data-bs-toggle="collapse" href="#development-section" aria-expanded="true" aria-controls="development-section">Web development</h5>

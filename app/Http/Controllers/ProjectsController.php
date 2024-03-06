@@ -55,4 +55,14 @@ class ProjectsController extends Controller
     {
         return view('projects.pages.development.portfolio');
     }
+
+    /**
+     * Show project detail.
+     * 
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function designPortfolio()
+    {
+        return view('projects.pages.design.portfolio');
+    }
 }
