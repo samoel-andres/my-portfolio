@@ -105,7 +105,7 @@
         </p>
         <div class="col-md-10">
             <video class="img-fluid border" src="{{ asset('build/assets/media/portfolio/prototype.mp4') }}" alt="portfolio-video" controls preload="auto">
-                <p>Not suported...</p>
+                <p>Not supported...</p>
             </video>
         </div>
         <p class="text-start mt-2" style="color: #535353;">
