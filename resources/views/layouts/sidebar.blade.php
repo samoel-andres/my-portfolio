@@ -52,8 +52,7 @@
 <div class="col-md-3 col-md-8 py-1 bg-white fade-in" style="display: {!! (Request::path()) == 'projects' ? '' : 'none' !!};">
     <h3>Notice</h3>
     <p class="text-start" style="color: #535353;">
-        Consider that the information about the projects of develop is summarized and informative, however,
-        you can see some codes in my <a style="color: #006064;" href="https://github.com/xxxSAV" target="_blank">GitHub</a>, 
-        some are private by integrity of the company for wich they were developed.
+        Consider that the information about the projects is summarized and informative, however,
+        in the case of the development projects you can see some codes in my <a style="color: #006064;" href="https://github.com/xxxSAV" target="_blank">GitHub</a>.
     </p>
 </div>
