@@ -1,11 +1,11 @@
 <div class="col-md-3 col-md-4 py-1 bg-white {!! (Request::path()) == 'projects' ? 'fade-in' : '' !!}">
-    <a role="button">
+    {{-- <a role="button">
         <h4 class="accordion bg-white py-2" id="accordion" data-bs-toggle="collapse" href="#project-list" aria-expanded="true" aria-controls="project-list">Project list</h4>
-    </a>
-    <div class="collapse show" id="project-list">
+    </a> --}}
+    {{-- <div class="collapse show" id="project-list"> --}}
         <div class="list-group">
             <a role="button">
-                <h5 class="accordion bg-white py-2 ms-1" id="accordion-2" data-bs-toggle="collapse" href="#design-section" aria-expanded="true" aria-controls="design-section">UX/UI Design</h5>
+                <h5 class="accordion bg-white py-2" id="accordion-2" data-bs-toggle="collapse" href="#design-section" aria-expanded="true" aria-controls="design-section">UX/UI Design</h5>
             </a>
             <div class="collapse show" id="design-section">
                 <div class="list-group">
@@ -20,7 +20,7 @@
         </div>
         <div class="list-group">
             <a role="button">
-                <h5 class="accordion bg-white py-2 ms-1" id="accordion-3" data-bs-toggle="collapse" href="#development-section" aria-expanded="true" aria-controls="development-section">Web development</h5>
+                <h5 class="accordion bg-white py-2" id="accordion-3" data-bs-toggle="collapse" href="#development-section" aria-expanded="true" aria-controls="development-section">Web development</h5>
             </a>
             <div class="collapse show" id="development-section">
                 <div class="list-group">
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    {{-- </div> --}}
     <a class="btn btn-animate floating-3 mt-3 mb-3" href="{{ route('contact.index') }}">
         <span>Contact me</span>
         <svg width="13px" height="10px" viewBox="0 0 13 10">
