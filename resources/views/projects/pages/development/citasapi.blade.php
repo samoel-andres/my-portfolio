@@ -13,162 +13,111 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>Dating system (API)</h3>
-        <span>Backend (Node.js, express.js, mongoose)</span>
+        <h3>Sistema de citas (API)</h3>
+        <span>Back end (Node.js, express.js, mongoose)</span>
         <br><br><br>
-        <h5>The challenge</h5>
+        <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
-            Develop an API that resceives and responds to HTTP requests sents from the frontend 
-            (only from SAAC system).
+            Desarrollar una API Rest que reciba y responda solicitudes HTTP enviadas desde una
+            plataforma web.
         </p>
-        <h5>Solution</h5>
+        <h5>Solución</h5>
         <p class="text-start" style="color: #535353;">
-            My solution is an API Rest; This API should created with Node.js and have protected routes, 
-            validators of data, generate special token's with signature of the API, data filtering and 
-            validators of users permissions.
+            Esta API la he creado usando Node.js, las rutas estan protegidas, realiza validaciones adicionales
+            a las que realiza el front end, tiene la capacidad de generar tokens firmados por la misma API,
+            filtra los datos y revisa los permisos de cada usuario.
         </p>
-        <h5>Process</h5>
+        <h5>Proceso</h5>
         <ol class="list-group list-group-numbered">
             <li class="list-group-item bg-white" style="color: #006064;">
-                Scaffold of files
+                Andamio de archivos
                 <p class="text-start ms-3" style="color: #535353;">
-                    As first step I established the scaffold to save each program file, this make it an 
-                    orderly, scalable and easy to understand application. I'm using the MVC model.
+                    Como primer paso, defino la estructura de carpetas donde guardaré cada archivo del programa
+                    siguiendo el patrón de arquitectura modelo-vista-controlador (MVC), esto mantiene ordenado el
+                    contenido de la API, la hace escalable, fácil de comprender y mantener.
                 </p>
-                <div class="col-auto ms-3">
-                    <ol class="list-group list-group-numbered">
-                        <li class="list-group-item bg-white">config</li>
-                        <li class="list-group-item bg-white">controllers</li>
-                        <li class="list-group-item bg-white">middleware</li>
-                        <li class="list-group-item bg-white">models</li>
-                        <li class="list-group-item bg-white">routes</li>
-                        <li class="list-group-item bg-white">utils</li>
-                        <li class="list-group-item bg-white">validator</li>
-                    </ol>
+                <div class="col-md-10 ms-3">
+                    <img class="img-fluid border" src="{{ asset('build/assets/image/other/scaffold_api.webp') }}" alt="components-angular">
                 </div>
                 <br>
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
-                File that starts the app
+                Archivo de incio
                 <p class="text-start ms-3" style="color: #535353;">
-                    In this file I create instances of tools as dotenv, express.js, cors and some config files.
-                    Each tool have a different function, for example, dotenv help to manage enviroments variables
-                    inside app.
+                    Este es el archivo principal de la aplicación, es el que inicia el funcionamiento de la
+                    API, también tiene la función de cargar las configuraciones iniciales para un buen
+                    funcionamiento.
                 </p>
                 <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
-require('dotenv').config()
-const express = require('express')
-const cors = require('cors')
-const dbConnect = require('./config/mongo')
-const app = express()
+const tools = require('express')
+const srv = express()
 
-app.use(cors())
-app.use(express.json())
+srv.use(tools.json())
 
-port = process.env.PORT || 5500
+port = 3800
 
 /**
- * Invoke the routes here.
- * http://host/file/endpoint
+ * Invocar rutas con la nomenclatura
+ * http://host/endpoint
  */
-app.use(require('./routes'))
+ srv.use(require('available_routes'))
 
-app.listen(port, () => {
-    console.log(`App is ready on http://host:${port}`)
-})
-
-dbConnect()
-                        </code>
-                    </pre>
-                </div>
-            </li>
-            <li class="list-group-item bg-white" style="color: #006064;">
-                Routes
-                <p class="text-start ms-3" style="color: #535353;">
-                    I create a file dynamic to identify the route requested, each file contains the routes availables
-                    referring to customers, users and email configs. The routes create, read, update and delete information
-                    on the database.
-                </p>
-                <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
-                    <pre class="ms-2">
-                        <code>
-const express = require('express')
-const fs = require('fs')
-const router = express.Router()
-
-const PATH_ROUTES = __dirname
-
-/**
- * This method extract only name of file that is the route.
- * @param {*} fileName 
- * @returns 
- */
-const removeExtension = (fileName) => {
-    return fileName.split('.').shift()
-}
-
-/**
- * This method read the routes and redidirect to correct file.
- */
-fs.readdirSync(PATH_ROUTES).filter((file) => {
-    const name = removeExtension(file)
-
-    if (name !== 'index') {
-        router.use(`/${name}`, require(`./${file}`))
-    }
+ srv.listen(port, () => {
+    console.log(`App is running`)
 })
                         </code>
                     </pre>
                 </div>
             </li>
             <li class="list-group-item bg-white" style="color: #006064">
-                Protection of routes
+                Protección de rutas
                 <p class="text-start ms-3" style="color: #535353;">
-                    The routes are protected by middleware injected that check permissions, if have session active and if the token
-                    was generated by this API, finally validates the object data received before pass to controller.
+                    Las rutas están protegidas mediante un middleware inyectado en cada ruta, lo cual verifica los permisos
+                    de usuario, sesión y comprueba los tokens, finalmente se validan los datos recibidos antes de procesarlos.
                 </p>
                 <div class="col-auto ms-3 ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
- * For example, insert item on http://host/file/endpoint.
- * The route is protected by the middleware that check if have session,
- * validates the token, check the rol's authorized and check data object received.
+ * Por ejemplo http://host/endpoint.
+ * La ruta está protegida por el middleware que revisa los datos de sesión, entre otros.
  */
-router.post('/add', authMiddleware, checkRol(['UserType', 'UserType']), validateItem, createItem)
+available_routes
+    .< method >(< action > | < middleware > | < check_permissions > | < check_data > | < procedure >)
                         </code>
                     </pre>
                 </div>
             </li>
             <li class="list-group-item bg-white" style="color: #006064">
-                Rol middleware
+                Control de roles
                 <p class="text-start ms-3" style="color: #535353;">
-                    This function check the user rol and grant or denied access at route specified.
+                    Esta función ayuda a verificar los roles de cada usuario, otorga o deniega el acceso
+                    a las rutas disponibles.
                 </p>
                 <div class="col-auto ms-3 ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
- * This function check the user rol received, if not found denied access.
- * @param {*} rol
+ * Esta funcion revisa el rol de usuario.
+ * 
+ * @param {*} data
  * @returns
  */
-const checkRol = (roles) => (req, res, next) => {
+const function_name = (data) => (a, b, c) => {
     try {
-        const { user } = req
-        const rolesByUser = user.role
+        const { d } = a
+        const user = data.property
         
-        const checkValueRol = roles.some((rolSingle) => rolesByUser.includes(rolSingle))
+        const val = data.have((auth) => user.have(auth))
 
-        if (!checkValueRol) {
-            handleHttpError(res, 'ACCESS DENIED')
-            return
+        if (!val) {
+            launch(b, 'message')
         }
         next()
     } catch (e) {
-        handleHttpError(res, 'OCURRED AN ERROR')
+        launch(b, 'message')
     }
 }
                         </code>
@@ -176,28 +125,28 @@ const checkRol = (roles) => (req, res, next) => {
                 </div>
             </li>
             <li class="list-group-item bg-white" style="color: #006064">
-                Results
+                Resultados
                 <p class="text-start ms-3" style="color: #535353;">
-                    The responses returned by this API are similar to the following examples.
+                    Las respuestas devueltas por la API son similares a los siguientes ejemplos.
                 </p>
                 <div class="col-auto ms-3 ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
- * If some value not exists or not is correct on the object, 
- * return an error indicated the fields invalids.
+ * Si algun valor no existe o es incorrecto en el objecto recibido
+ * retorna un error.
  */
 {
     "errors": 
     [
         {
             "msg": "Invalid value",
-            "param": "customer.folder",
+            "param": "property.folder",
             "location": "body"
         },
         {
             "msg": "Invalid value",
-            "param": "customer.number.azul",
+            "param": "property.folder.folder",
             "location": "body"
         }
     ]
@@ -209,11 +158,10 @@ const checkRol = (roles) => (req, res, next) => {
                     <pre class="ms-2">
                         <code>
 /**
- * If some body try to access at some route and not have a session, receives 
- * the followin message, something similar happens if the token is invalid or
- * not was generated by this API.
+ * Si algun usuario intenta acceder a rutas sin iniciar sesión o rutas a las
+ * que no tiene autorizacion, recibirá un mensaje como el siguiente.
  */
-NOT_SESSION_401
+OOPS, UNEXPECTED WRONG
                         </code>
                     </pre>
                 </div>
@@ -221,23 +169,22 @@ NOT_SESSION_401
                     <pre class="ms-2">
                         <code>
 /**
- * If all credentials and data is validated correctly, return an object with the data
- * requested and some details of the user owner of the session active, 
- * similar to the following.
+ * Si todos los datos son validados correctamente, se retorna un objeto con los
+ * datos solicitados.
  */
 {
-    "data": [
+    "object": [
         {
-            "customer": {
+            "folder": {
                 "content": {
                     < INFORMATION >
                 }
             }
         }
     ],
-    "user": {
-        "account": {
-            "details": {
+    "object": {
+        "folder": {
+            "folder": {
                 "authorized-level-details": {
                     < PRIVATE >
                 },
@@ -251,17 +198,17 @@ NOT_SESSION_401
                 </div>
             </li>
         </ol>
-        <h5 style="color: #006064;">Note</h5>
+        <h5 style="color: #006064;">Nota</h5>
         <p class="text-start" style="color: #535353;">
-            This App process, receives and responds data from and to the <a style="color: #006064;" href="{{ route('projects.citasweb') }}">WEB</a>.
-            All routes are protected by multiples validators and a secret key inside API, the information is
-            cleaned and validated before save on the database. The examples displayed contain modifications and 
-            lines that were removed for privacy, integrity and security of the API.
+            Esta API Rest procesa, recibe, envia datos desde y hacia <a style="color: #006064;" href="{{ route('projects.citasweb') }}">web</a>.
+            Todas las rutas están protegidas por multiples validaciones y una clave secreta de la API, la información
+            se limpia antes de ser procesada. Los ejemplos mostrados contienen modificaciones y lineas que se eliminaron
+            por motivos de privacidad, integridad y seguridad de la API.
         </p>
-        <h5 style="color: #006064;">Important</h5>
+        <h5 style="color: #006064;">Importante</h5>
         <p class="text-start" style="color: #535353;">
-            This project is private on my GitHub, but I attach evidence of the existence of 
-            the repository.
+            Esta API solo funciona dentro de la red interna de la entidad para la cual fue desarrollada, de igual
+            forma el código es privado, adjunto evidencia de la existencia del repositorio.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_13.webp') }}" alt="evidence-13">
@@ -273,17 +220,17 @@ NOT_SESSION_401
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
                         <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                     </svg>
-                    <span>Prev</span>
+                    <span>Ant</span>
                 </a>
             </div>
             <div class="col text-center">
                 <a href="#" id="up" class="btn">
-                    <span>Slide up</span>
+                    <span>Subir</span>
                 </a>
             </div>
             <div class="col text-end">
                 <a class="btn" href="{{ route('projects.portfolio') }}">
-                    <span>Next</span>
+                    <span>Sig</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
                         <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                     </svg>
