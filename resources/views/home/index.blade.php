@@ -15,12 +15,11 @@
             <div class="col">
                 <h1 class="floating-5" style="box-shadow: none;">SAMOEL ANDRES</h1>
                 <p class="floating-5" style="box-shadow: none; color: #535353;">
-                    Plased too meet you!<br>
-                    Welcome to my portfolio, I hope you like it and that it'll be
-                    of your interest.
+                ¡Es un placer recibir tu visita!<br>
+                    Bienvenido a mi portafolio, espero que sea de tu agrado.
                 </p>
                 <a class="btn btn-animate floating-3" href="{{ route('about.index') }}">
-                    <span>About me</span>
+                    <span>Sobre mí</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>
@@ -31,7 +30,7 @@
         <div class="col-md-6 top-2">
             <div class="row text-center">
                 <div class="col">
-                    <img src="{{ asset('build/assets/image/photo.webp') }}" class="img-fluid floating-3" style="border-radius: 500px;" alt="photo-samoel-andres">
+                    <img src="{{ asset('build/assets/image/dev.gif') }}" class="img-fluid floating-3" style="border-radius: 500px;" alt="picture-gif">
                 </div>
             </div>
         </div>
