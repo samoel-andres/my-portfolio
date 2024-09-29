@@ -10,22 +10,22 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item m-1">
                     <a class="nav-link" href="{{ route('home.index') }}">
-                        Home
+                        Inicio
                     </a>
                 </li>
                 <li class="nav-item m-1">
                     <a class="nav-link" href="{{ route('projects.index') }}">
-                        Projects
+                        Mis proyectos
                     </a>
                 </li>
                 <li class="nav-item m-1">
                     <a class="nav-link" href="{{ route('about.index') }}">
-                        About
+                        Sobre mi
                     </a>
                 </li>
                 <li class="nav-item m-1">
                     <a class="nav-link" href="{{ route('contact.index') }}">
-                        Contact
+                        Contacto
                     </a>
                 </li>
             </ul>
