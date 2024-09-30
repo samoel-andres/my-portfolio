@@ -7,53 +7,54 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
             </svg>
-            <span>Close details</span>
+            <span>Cerrar detalles</span>
         </a>
     </div>
 </div>
 <div class="row py-2 fade-in">
     <main>
         <h3>On-Store (App)</h3>
-        <span>UX/UI Design</span>
+        <span>Diseño UX/UI</span>
         <br><br><br>
-        <h5>Theme</h5>
+        <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
-            Design a shopping app. The focus should be on the process of buying products. The purchase
-            should be as easy and fast as possible.
+            Diseñar una aplicación de compras. La atención debe centrarse en el proceso de compra de productos,
+            la compra debe ser lo mas fácil y sencilla posible.
         </p>
-        <h5>Design process</h5>
+        <h5>Proceso de siseño</h5>
         <p class="text-start" style="color: #535353;">
-            Interface sketches. My goal in this step is to represent the main features to be seen on each
-            screen.
+            Creación de los bocetos de interfaz. Mi objetivo es representar mis ideas de como se verá cada una
+            de las pantallas de la app.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/onstore_sketches.webp') }}" alt="sketches">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            My next step is to make the wireframes that show abstractly the content that will be in each interface.
+            Mi siguiente paso es realizar los wireframes que muestren de forma abstracta el contenido que
+            habrá en cada interfaz, basado en los bocetos realizados.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/wireframes.webp') }}" alt="wireframes">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            Now, I define the color palette. These are the color I'll use for the design and coloring of
-            the app. The selection of color is made according to some important aspects, such as the context
-            and the subject of the study.
+            Ahora defino la paleta de colores. Estos son los colores que usaré para el diseño y coloreado de
+            la aplicación. La selección del color la realice en función de algunos aspectos importantes como
+            el contexto y el tema de estudio.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/color_palette.webp') }}" alt="color-palette">
         </div>
         <p class="text-start mt-2" style="color: #535353;">
-            And these are other colors to use in text, background or prices.
+            Estos son otros colores que decidí usar para textos, fondo o precios.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/other_colors.webp') }}" alt="other_colors">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            These are icons that I selected to give a more pleasing appearance.
+            Estos son los iconos que seleccioné para darle una apariencia más agradable.
         </p>
         <div class="col-md-10 text-center border">
             <div class="row justify-content-around">
@@ -68,15 +69,17 @@
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            It's time to create the high fidelity designs. These are closer to
-            reality of the final product will look like.
+            Es hora de crear los diseños de alta fidelidad. Estos son mas cercanos a
+            como se verá en realidad el producto final.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/high_fidelity.webp') }}" alt="high-fidelity-design">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            User flow diagrams.
+            Ahora, el reto nos pide hacer el proceso de compra lo mas fácil, sencilla
+            y rápida posible, a continuación, muestro el diagrama de flujo de usuario 
+            para compras y agregado de productos al carrito.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/user_flow_to_purchase.webp') }}" alt="user-flow-diagram">
@@ -87,15 +90,12 @@
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            Finally, the prototype of the app is shown below.
+            Finalmente, genero el prototipo de la aplicación.
         </p>
         <div class="col-md-10">
             <video class="img-fluid border" style="width: 100%; height: 500px;" src="{{ asset('build/assets/media/onstore/prototype.mp4') }}" alt="onstore-video" controls preload="auto">
                 <p>not supported...</p>
             </video>
-        </div>
-        <div class="col-md-10 mt-2" style="color: #535353;">
-            This is my solution to the problem mentioned at the beginning of this small project.
         </div>
         <br>
         <div class="row justify-content-around">
@@ -104,12 +104,12 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
                         <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                     </svg>
-                    <span>Prev</span>
+                    <span>Ant</span>
                 </a>
             </div>
             <div class="col text-center">
                 <a href="#" id="up" class="btn">
-                    <span>Slide up</span>
+                    <span>Subir</span>
                 </a>
             </div>
             <div class="col text-end">
