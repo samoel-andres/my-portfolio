@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="{{ asset('build/assets/css/helpers/lwtext.css') }}">
 @endsection
 
-@section('title', 'Projects - Samoel Andres')
+@section('title', 'Proyectos - Samoel Andres')
 
 @section('content')
 <div class="container my-4">
