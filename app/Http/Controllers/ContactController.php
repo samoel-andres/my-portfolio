@@ -44,10 +44,10 @@ class ContactController extends Controller
                 ->notify(new MailNotification($contact));
         } catch (\Exception $e) {
             return redirect()->route('contact.index')
-                ->with('send-error', 'Oops, an error ocurred while sending the notification, could you let me know in the contacts below?.');
+                ->with('send-error', 'Oops no se pudo enviar la notificación, puedes contactarme directamente con los datos proporcionados en la parte inferior.');
         }
 
         return redirect()->route('contact.index')
-            ->with('success-sends', 'Sent correctly, I will respond to you shortly or contact you at phone number you provided me.');
+            ->with('success-sends', 'Notificación enviada, te responderé a la brevedad al correo que indicaste o te contactaré vía telefónica.');
     }
 }
