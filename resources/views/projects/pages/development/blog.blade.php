@@ -7,40 +7,41 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
             </svg>
-            <span>Close details</span>
+            <span>Cerrar detalles</span>
         </a>
     </div>
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>Blog web</h3>
-        <span>Frontend & backend (Laravel with PHP 8.1, MySQL)</span>
+        <h3>Blog (web)</h3>
+        <span>Front end & back end (Laravel con PHP 8.1, MySQL)</span>
         <br><br><br>
-        <h5>The challenge</h5>
+        <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
-            Develop a blog web, the users can be able login, post articles, add comments and they have
-            an admin dashboard.
+            Desarrollar un blog donde los usuarios puedan iniciar sesión, publicar articulos, hacer
+            comentarios y tengan un panel de administración.
         </p>
-        <h5>Solution</h5>
+        <h5>Solución</h5>
         <p class="text-start" style="color: #535353;">
-            Using some tools provided by Laravel I built the blog. Laravel UI --auth for the login page,
-            Laravel UI bootstrap for style of site, I use a third party tool for the dashboar of 
-            admin (AdminLTE) and finally, I use MySQL to manage the data of users, articles, etc.
+            Este proyecto lo he creado usando herramientas proporcionadas por el framework de Laravel
+            como Laravel UI para controlar los inicios de sesión, estilos del sitio, una herramienta
+            de terceros para el tablero de administración y finalmente MySQL para gestionar los datos
+            de usuarios, articulos, etc.
         </p>
-        <h5>Process</h5>
+        <h5>Proceso</h5>
         <ol class="list-group list-group-numbered">
             <li class="list-group-item bg-white" style="color: #006064;">
-                Configure MySQL database
+                Configuración de la base de datos
                 <p class="text-start ms-3" style="color: #535353;">
-                    Beginning by configure the values to connect the app with MySQL. In this case,
-                    our project is local, then the configures are local too.
+                    Como primer paso configuro los valores para conectar la aplicación con MySQL. En
+                    Este caso es un proyecto local.
                 </p>
                 <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
- * Inside the .env file, we locate the lines and add
- * the values to connect with MySQL.
+ * Dentro del archivo de configuracion realizo los
+ * siguientes cambios.
  */
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -53,17 +54,18 @@ DB_PASSWORD=test_pass
                 </div>
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
-                Create models
+                Crear los modelos
                 <p class="text-start ms-3" style="color: #535353;">
-                    The models help to excecute any action on the tables. When any migration is
-                    excecuted; Laravel creates the database and tables based on our created migrations
-                    and then we can create each model and add relation methods between tables.
+                    Los modelos ayudan a ejecutar cualquier acción sobre las tablas. Cuando
+                    es ejecutada cualquier migración Laravel crea la base de datos y las tablas
+                    basado en cada migración creada, posteriormente podemos crear cada modelo y agregar
+                    métodos de relacion entre las tablas.
                 </p>
                 <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
- * These are some methods of the user model.
+ * Estos son los métodos del modelo de usuarios.
  */
 
 // Relation one - one (user-profile)
@@ -87,7 +89,7 @@ public function comments() {
                     <pre class="ms-2">
                         <code>
 /**
- * These are some methods of the articles model.
+ * Estos son los métodos del modelo de articulos.
  */
 
 // Relation one - many (inverse) (article-user)
@@ -109,25 +111,24 @@ public function category() {
                 </div>
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
-                Create routes and controllers
+                Creación de rutas y controladores
                 <p class="text-start ms-3" style="color: #535353;">
-                    The routes handle the views, information flow, etc. They're required a
-                    controller that render, redirect or pass information between 
-                    views and return a result, for example:
+                    Las rutas manejan las vistas, el flujo de información, etc. Se requiere un controlador
+                    que renderiza, redirige o pasa información entre vistas y devuelve un resultado, por ejemplo:
                 </p>
                 <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
- * This is the route that returns the comments of an article and also delete
- * a comment.
+ * Este es la ruta que retorna los comentarios de un articulo y también elimina
+ * un comentario.
  */
 Route::resource('comments', CommentController::class)
     ->only('index', 'destroy')
     ->names('comments');
 
 /**
- * Display a listing of the resource.
+ * Mostrar un listado de los comentarios.
  */
 public function index() {
     $comments = DB::table('comments')
@@ -142,7 +143,7 @@ public function index() {
 }
 
 /**
- * Remove the specified resource from storage.
+ * Eliminar el comentario especificado.
  */
 public function destroy(Comment $comment) {
     $comment->delete();
@@ -155,16 +156,17 @@ public function destroy(Comment $comment) {
                 </div>
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
-                Data validation
+                Validación de datos
                 <p class="text-start ms-3" style="color: #535353;">
-                    The data validation is done by means of requests, internally in these are 
-                    indicated what require.
+                    La validación de datos se realiza mediante reglas, internamente estas se
+                    ejecutan cuando se necesitan.
                 </p>
                 <div class="col-auto ms-3" style="border-left: 1px solid #5353535c;">
                     <pre class="ms-2">
                         <code>
 /**
- * This function specifies the validation rules for creating new items.
+ * Esta funcion especifica las reglas de validación para
+ * la creación de nuevos items.
  */
 public function rules(): array {
     $slug = request()->isMethod('put') ? 'required|unique:articles,slug,' . $this->id : 'required|unique:articles';
@@ -185,10 +187,11 @@ public function rules(): array {
                 </div>
             </li>
             <li class="list-group-item bg-white" style="color: #006064;">
-                Make views
+                Realizar las vistas
                 <p class="text-start ms-3" style="color: #535353;">
-                    In this case, the design of the views was provided by a teacher. 
-                    The views are rendered dynamically.
+                    En este proyecto las interfaces no tuvieron un proceso de diseño. Las vistas se 
+                    renderizan dinámicamente cuando los controladores solicitan la renderización. 
+                    A continuación, muestro una breve galeria del desarrollo.
                 </p>
                 <div class="col-md-10 ms-3">
                     <div id="evidence-carousel" class="carousel slide border" data-bs-ride="carousel">
@@ -221,9 +224,9 @@ public function rules(): array {
                 <br>
             </li>
             <li class="list-group-item bg-white" style="color: #006064">
-                Results
+                Resultados
                 <p class="text-start ms-3" style="color: #535353;">
-                    Finally, this is the result of my work.
+                    Finalmente, muestro una galeria con las interfaces realizadas y funcionando.
                 </p>
                 <div class="col-md-10 ms-3">
                     <div id="results-carousel" class="carousel slide border" data-bs-ride="carousel">
@@ -265,10 +268,11 @@ public function rules(): array {
                 <br>
             </li>
         </ol>
-        <h5 style="color: #006064;">Note</h5>
+        <h5 style="color: #006064;">Nota</h5>
         <p class="text-start" style="color: #535353;">
-            This project was developed during a Laravel course, it was only considered for viewing on 
-            large screen, for example: PC or Laptop. I attach evidence of the existence of the repository.
+            Este proyecto es personal, fue desarrollado durante un curso de Laravel. Adjunto una
+            evidencia de la existencia del repositorio. Puedes ver el código de este proyecto en
+            mi <a style="color: #006064;" href="https://github.com/samoel-andres" target="_blank">GitHub</a>, 
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_19.webp') }}" alt="evidence-19">
@@ -280,12 +284,12 @@ public function rules(): array {
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
                         <path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/>
                     </svg>
-                    <span>Prev</span>
+                    <span>Ant</span>
                 </a>
             </div>
             <div class="col text-center">
                 <a href="#" id="up" class="btn">
-                    <span>Slide up</span>
+                    <span>Subir</span>
                 </a>
             </div>
             <div class="col text-end"></div>
