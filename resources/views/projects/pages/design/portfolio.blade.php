@@ -7,101 +7,102 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
             </svg>
-            <span>Close details</span>
+            <span>Cerrar detalles</span>
         </a>
     </div>
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>My portfolio</h3>
-        <span>UX/UI Design</span>
+        <h3>Mi portafolio</h3>
+        <span>Diseño UX/UI</span>
         <br><br><br>
-        <h5>How my idea started</h5>
+        <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
-            To show about my knowledge, I've thought about creating a website; Where I list the projects
-            that I've done, something like a CV, simple and with relevant information.
+            Para demostrar mis conocimientos, he pensado en crear un sitio web donde pueda listar los proyectos
+            que he realizado, sencillo y con información resumida pero a la vez relevante.
         </p>
-        <h5>Some considerations</h5>
+        <h5>Algunas consideraciones</h5>
         <ul class="list-group">
             <li class="list-group-item bg-white">
                 <strong>Logo</strong>
                 <br>
                 <span>
-                    It's a symbol of identification with wich customer or person recognize a brand.
+                    Es un símbolo de identificación, con el que un cliente o persona reconoce una marca.
                 </span>
             </li>
             <li class="list-group-item bg-white">
-                <strong>Order</strong>
+                <strong>Orden</strong>
                 <br>
                 <span>
-                    On a website it is important to present information in an orderly fashion so
-                    that users can understand the content.
+                    En un sitio web, es importante presentar la información de forma ordenada para que los usuarios
+                    puedan comprender y encontrar contenido de forma fácil.
                 </span>
             </li>
             <li class="list-group-item bg-white">
-                <strong>Easy to use</strong>
+                <strong>Fácil de usar</strong>
                 <br>
                 <span>
-                    The website must be easy to use and offer adequate navigation.
+                    El sitio web debe ser fácil de usar, ofrecer una navegación limpia y adecuada.
                 </span>
             </li>
         </ul>
         <br>
-        <h5>Design of my logo</h5>
+        <h5>Diseño de mi logo</h5>
         <p class="text-start" style="color: #535353;">
-            I've created a sketch with the initials of my name.
+            Inicie ideando y creando un boceto con las iniciales de mi nombre.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/logo_sketch.webp') }}" alt="logo-sketch">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            This is the logo I made and the colors I select are green and turquoise.
+            Como segundo paso, realice el logo de manera digital y realice breves cambios, también 
+            elegí los colores (verde y turquesa).
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/image/logo.webp') }}" alt="logo">
         </div>
         <br><br>
-        <h5>Design of the site</h5>
+        <h5>Diseño del sitio</h5>
         <p class="text-start" style="color: #535353;">
-            As first step, I allways start by making a sketch or hand drawing. This is as rough draft to 
-            represent the main features of the design.
+            Ahora inicio con el deseño del sitio. Como buena práctica, siempre empiezo haciendo bocetos a mano.
+            Estos son borradores para representar las ideas del diseño.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/sketches.webp') }}" alt="sketches">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            Now, I make the wireframes of the design. A wireframe is clearer and allows to visualize the content
-            that will be present on each screen, and reflects the functionalities that will be present.
+            Ahora realizo los wireframes del diseño con ayuda de los bocetos previos. Un wireframe es mas claro y 
+            permite visualizar el contenido que estará presente en cada pantalla de manera abstracta.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/wireframes.webp') }}" alt="wireframes">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            To continue, I now do the high fidelity designs, these are more accurate and closer to the reality of
-            the final product will look like (some specified features are not possible to detail, e.g. animations).
+            Continuando con el diseño, es tiempo de hacer los diseños de alta fidelidad, estos son más precisos y cercanos
+            a como se verá el producto final (algunas características especificas no son posibles de detallar, por ejemplo,
+            animaciones).
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/high_fidelity.webp') }}" alt="high_fidelity">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
-            The user flow diagram traces the logical path that the user must follow* when interacting with the site or
-            system.
+            El diagrama de flujo de usuario traza la ruta que el usuario debe seguir* al interactuar con el sitio/plataforma 
+            o sistema.
         </p>
         <div class="col-md-10">
             <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/user_flow_diagram_1.webp') }}" alt="user-flow-diagram">
         </div>
         <p class="text-start mt-2" style="color: #535353;">
-            The flow of interaction is important for the user to be able to move freely between the different pages
-            from wherever they are, in this case they can do so thanks to the navigation bar that is visible at all
-            times.
+            El flujo de interacción es importante para que el usuario pueda moverse libremente entre las diferentes páginas/secciones,
+            sin importar el punto donde se encuentre dentro del sitio.
         </p>
         <br>
         <p class="text-start" style="color: #535353;">
-            To conclude the summary of this project, a final prototype is shown belown.
+            Para concluir el resumen del diseño de este proyecto, genere el siguiente prototipo.
         </p>
         <div class="col-md-10">
             <video class="img-fluid border" src="{{ asset('build/assets/media/portfolio/prototype.mp4') }}" alt="portfolio-video" controls preload="auto">
@@ -109,8 +110,8 @@
             </video>
         </div>
         <p class="text-start mt-2" style="color: #535353;">
-            A prototype is used to show at users would be like the experience with the product, is sought the maximum
-            user satisfaction.
+            Los prototipos se utilizan para mostrar a los usuarios como sería la experiencia con el producto, se busca la máxima 
+            satisfacción y aprobación de los usuarios.
         </p>
         <br>
         <div class="row justify-content-around">
@@ -118,12 +119,12 @@
             </div>
             <div class="col text-center">
                 <a href="#" id="up" class="btn">
-                    <span>Slide up</span>
+                    <span>Subir</span>
                 </a>
             </div>
             <div class="col text-end">
                 <a class="btn" href="{{ route('projects.designonstore') }}">
-                    <span>Next</span>
+                    <span>Sig</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
                         <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
                     </svg>
