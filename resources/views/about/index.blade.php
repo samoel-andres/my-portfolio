@@ -43,6 +43,7 @@
             </div>
         </div>
     </div>
+    <br>
     <div class="row justify-content-between m-top-5 bg-white floating-5 p-top-05 border">
         <div class="col-md-2 floating-5" style="box-shadow: none;">
             <h5>Educación</h5>                
