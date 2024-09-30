@@ -42,6 +42,7 @@
             <polyline points="8 1 12 5 8 9"></polyline>
         </svg>
     </a>
+    <br><br><br>
 </div>
 
 <div class="col-md-3 col-md-8 py-1 bg-white fade-in" style="display: {!! (Request::path()) == 'projects' ? '' : 'none' !!};">
