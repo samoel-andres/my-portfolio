@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="col-md-6 top-2">
-            <div class="row text-center">
+            <div class="row text-center align-items-center">
                 <div class="col">
                     <img src="{{ asset('build/assets/image/dev.gif') }}" class="img-fluid floating-3" style="border-radius: 500px;" alt="picture-gif">
                 </div>
