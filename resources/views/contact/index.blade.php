@@ -7,16 +7,16 @@
 <link rel="stylesheet" href="{{ asset('build/assets/css/helpers/lwtext.css') }}">
 @endsection
 
-@section('title', 'Contact - Samoel Andres')
+@section('title', 'Contacto - Samoel Andres')
 
 @section('content')
 <div class="container my-4 mb-5 fade-in">
     <form class="row p-3 floating-5 bg-white border" method="POST" action="{{ route('send') }}"> 
         @csrf
-        <h1 class="floating-5" style="box-shadow: none;">CONTACT</h1>
+        <h1 class="floating-5" style="box-shadow: none;">CONTACTO</h1>
         <div class="col-md-6 floating-4" style="box-shadow: none;">
             <div class="col-md-12">
-                <label for="name" class="form-label" style="color: #535353;">Your name</label>
+                <label for="name" class="form-label" style="color: #535353;">Tu nombre</label>
                 <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}" required autofocus>
 
                 @error('name')
@@ -26,7 +26,7 @@
                 @enderror
             </div>
             <div class="col-md-12">
-                <label for="email" class="form-label" style="color: #535353;">Your email address</label>
+                <label for="email" class="form-label" style="color: #535353;">Tu dirección de correo</label>
                 <input type="email" class="form-control" id="email" name="email" value="{{ old('email') }}" required>
 
                 @error('emali')
@@ -36,7 +36,7 @@
                 @enderror
             </div>
             <div class="col-md-12">
-                <label for="phone" class="form-label" style="color: #535353;">Your phone number</label>
+                <label for="phone" class="form-label" style="color: #535353;">Tu número de telófono</label>
                 <input type="text" class="form-control" id="phone" name="phone" value="{{ old('phone') }}" required>
 
                 @error('phone')
@@ -48,7 +48,7 @@
         </div>
         <div class="col-md-6 floating-4" style="box-shadow: none;">
             <div class="col-md-12">
-                <label for="subject" class="form-label" style="color: #535353;">Subject</label>
+                <label for="subject" class="form-label" style="color: #535353;">Motivo de contacto</label>
                 <input type="text" class="form-control" id="subject" name="subject" value="{{ old('subject') }}" required>
 
                 @error('subject')
@@ -58,7 +58,7 @@
                 @enderror
             </div>
             <div class="col-md-12">
-                <label for="message" class="form-label" style="color: #535353;">Message</label>
+                <label for="message" class="form-label" style="color: #535353;">Mensaje</label>
                 <textarea class="form-control" style="height: 105px" name="message" id="message" required></textarea>
 
                 @error('message')
@@ -72,7 +72,7 @@
         <div class="row m-2 text-end">            
             <div class="col">
                 <button class="btn btn-animate floating-3" type="submit">
-                    <span>Send</span>
+                    <span>Enviar</span>
                     <svg width="13px" height="10px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
                         <polyline points="8 1 12 5 8 9"></polyline>
@@ -105,17 +105,17 @@
         <div class="row mt-4 mb-2">
             <div class="col-md-12">
                 <p style="margin: 0px 20px;" class="linea">
-                    <span>Or</span>
+                    <span>O</span>
                 </p>
             </div>
         </div>
         <div id="contact" class="row mb-1 bottom-2" style="color: #535353">
             <div class="col-md-6 text-end">
-                <strong>Call me</strong>
+                <strong>Llámame</strong>
                 <p class="text-end">55 6104 2249</p>
             </div>
             <div class="col-md-6 text-start">
-                <strong>Send me an email</strong>
+                <strong>Mi correo</strong>
                 <p class="text-start flex-wrap">aevs.andres.vidal@gmail.com</p>
             </div>
         </div>
