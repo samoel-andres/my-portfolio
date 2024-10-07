@@ -13,7 +13,7 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>Mi portafolio</h3>
+        <h3>Mi portafolio (Web)</h3>
         <span>Diseño UX/UI</span>
         <br><br><br>
         <h5>El reto</h5>
