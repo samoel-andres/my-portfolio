@@ -1,12 +1,12 @@
 <div class="col-md-3 col-md-4 py-1 bg-white {!! (Request::path()) == 'projects' ? 'fade-in' : '' !!}">
     <div class="list-group">
-    <a role="button">
+        <a role="button">
             <h5 class="accordion bg-white py-2" id="accordion-2" data-bs-toggle="collapse" href="#design-section" aria-expanded="true" aria-controls="design-section">Diseño UX/UI</h5>
         </a>
         <div class="collapse show" id="design-section">
             <div class="list-group">
                 <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/ux-ui-design/portfolio' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.designportfolio') }}">
-                    Mi portafolio
+                    Mi portafolio (Web)
                 </a>
                 <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/ux-ui-design/onstore-app' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.designonstore') }}">
                     On-Store (App)
