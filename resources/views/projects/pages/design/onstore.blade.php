@@ -13,8 +13,9 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>On-Store (App)</h3>
-        <span>Diseño UX/UI</span>
+        <h3>On-Store</h3>
+        <span class="span-silver">UX | UI</span>
+        <span class="span-silver">App</span>
         <br><br><br>
         <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
