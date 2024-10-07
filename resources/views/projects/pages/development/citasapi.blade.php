@@ -13,8 +13,11 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>Sistema de citas (API)</h3>
-        <span>Back end (Node.js, express.js, mongoose)</span>
+        <h3>Sistema de citas</h3>
+        <span class="span-silver">Backend</span>
+        <span class="span-silver">Lógica de negocio</span>
+        <span class="span-silver">API</span>
+        <span class="span-silver">Node.js</span>
         <br><br><br>
         <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
