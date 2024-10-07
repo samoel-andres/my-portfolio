@@ -13,8 +13,10 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>Mi portafolio (Web)</h3>
-        <span>Front end (Laravel con PHP 8.1)</span>
+        <h3>Mi portafolio</h3>
+        <span class="span-silver">Frontend</span>
+        <span class="span-silver">Laravel</span>
+        <span class="span-silver">Web site</span>
         <br><br><br>
         <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
