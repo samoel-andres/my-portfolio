@@ -13,8 +13,12 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>Blog (web)</h3>
-        <span>Front end & back end (Laravel con PHP 8.1, MySQL)</span>
+        <h3>Blog</h3>
+        <span class="span-silver">Frontend</span>
+        <span class="span-silver">Backend</span>
+        <span class="span-silver">Laravel</span>
+        <span class="span-silver">MySQL</span>
+        <span class="span-silver">Web site</span>
         <br><br><br>
         <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
