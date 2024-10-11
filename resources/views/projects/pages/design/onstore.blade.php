@@ -22,7 +22,7 @@
             Diseñar una aplicación de compras. La atención debe centrarse en el proceso de compra de productos,
             la compra debe ser lo mas fácil y sencilla posible.
         </p>
-        <h5>Proceso de siseño</h5>
+        <h5>Proceso de diseño</h5>
         <p class="text-start" style="color: #535353;">
             Creación de los bocetos de interfaz. Mi objetivo es representar mis ideas de como se verá cada una
             de las pantallas de la app.
@@ -114,6 +114,12 @@
                 </a>
             </div>
             <div class="col text-end">
+                <a class="btn" href="{{ route('projects.designicecream') }}">
+                    <span>Sig</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#006064" viewBox="0 0 16 16">
+                        <path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/>
+                    </svg>
+                </a>
             </div>
         </div>
     </main>
