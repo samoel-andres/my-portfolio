@@ -13,9 +13,10 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>On-Store</h3>
+        <h3>On Store</h3>
         <span class="span-silver">UX | UI</span>
         <span class="span-silver">App</span>
+        <span class="span-silver">Adobe XD</span>
         <br><br><br>
         <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
@@ -28,7 +29,7 @@
             de las pantallas de la app.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/onstore_sketches.webp') }}" alt="sketches">
+            <img class="img-fluid" src="{{ asset('build/assets/media/onstore/onstore_sketches.webp') }}" alt="sketches">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
@@ -36,7 +37,7 @@
             habrá en cada interfaz, basado en los bocetos realizados.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/wireframes.webp') }}" alt="wireframes">
+            <img class="img-fluid" src="{{ asset('build/assets/media/onstore/wireframes.webp') }}" alt="wireframes">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
@@ -45,19 +46,19 @@
             el contexto y el tema de estudio.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/color_palette.webp') }}" alt="color-palette">
+            <img class="img-fluid" src="{{ asset('build/assets/media/onstore/color_palette.webp') }}" alt="color-palette">
         </div>
         <p class="text-start mt-2" style="color: #535353;">
             Estos son otros colores que decidí usar para textos, fondo o precios.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/other_colors.webp') }}" alt="other_colors">
+            <img class="img-fluid" src="{{ asset('build/assets/media/onstore/other_colors.webp') }}" alt="other_colors">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
             Estos son los iconos que seleccioné para darle una apariencia más agradable.
         </p>
-        <div class="col-md-10 text-center border">
+        <div class="col-md-10 text-center">
             <div class="row justify-content-around">
                 <div class="col"><img class="img-fluid" src="{{ asset('build/assets/media/onstore/icons/logo.webp') }}" alt="logo"></div>
                 <div class="col"><img class="img-fluid" src="{{ asset('build/assets/media/onstore/icons/icon_user.webp') }}" alt="icon-u"></div>
@@ -74,7 +75,7 @@
             como se verá en realidad el producto final.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/high_fidelity.webp') }}" alt="high-fidelity-design">
+            <img class="img-fluid" src="{{ asset('build/assets/media/onstore/high_fidelity.webp') }}" alt="high-fidelity-design">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
@@ -83,18 +84,18 @@
             para compras y agregado de productos al carrito.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/user_flow_to_purchase.webp') }}" alt="user-flow-diagram">
+            <img class="img-fluid" src="{{ asset('build/assets/media/onstore/user_flow_to_purchase.webp') }}" alt="user-flow-diagram">
         </div>
         <br>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/onstore/user_flow_add_to_cart.webp') }}" alt="process-to-add-at-cart">
+            <img class="img-fluid" src="{{ asset('build/assets/media/onstore/user_flow_add_to_cart.webp') }}" alt="process-to-add-at-cart">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
             Finalmente, genero el prototipo de la aplicación.
         </p>
         <div class="col-md-10">
-            <video class="img-fluid border" style="width: 100%; height: 500px;" src="{{ asset('build/assets/media/onstore/prototype.mp4') }}" alt="onstore-video" controls preload="auto">
+            <video class="img-fluid" style="width: 100%; height: 500px;" src="{{ asset('build/assets/media/onstore/prototype.mp4') }}" alt="onstore-video" controls preload="auto">
                 <p>not supported...</p>
             </video>
         </div>
