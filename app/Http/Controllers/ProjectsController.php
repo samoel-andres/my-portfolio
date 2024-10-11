@@ -75,4 +75,14 @@ class ProjectsController extends Controller
     {
         return view('projects.pages.design.onstore');
     }
+
+    /**
+     * Show project detail.
+     * 
+     * @return \Illimunate\Contracts\Support\Renderable
+     */
+    public function designIceCream()
+    {
+        return view('projects.pages.design.icecream');
+    }
 }
