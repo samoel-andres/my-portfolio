@@ -13,7 +13,7 @@
 </div>
 <div class="row py-2 fade-in">
     <main>
-        <h3>On Store</h3>
+        <h3>ON Store</h3>
         <span class="span-silver">UX | UI</span>
         <span class="span-silver">App</span>
         <span class="span-silver">Adobe XD</span>
