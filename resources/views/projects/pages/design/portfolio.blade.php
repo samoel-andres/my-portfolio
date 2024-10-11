@@ -16,6 +16,7 @@
         <h3>Mi portafolio</h3>
         <span class="span-silver">UX | UI</span>
         <span class="span-silver">Web site</span>
+        <span class="span-silver">Adobe XD</span>
         <br><br><br>
         <h5>El reto</h5>
         <p class="text-start" style="color: #535353;">
@@ -23,28 +24,22 @@
             que he realizado, sencillo y con información resumida pero a la vez relevante.
         </p>
         <h5>Algunas consideraciones</h5>
-        <ul class="list-group">
-            <li class="list-group-item bg-white">
-                <strong>Logo</strong>
+        <ul class="text-start" style="color: #535353;">
+            <li>
+                <b>Logo</b>
                 <br>
-                <span>
-                    Es un símbolo de identificación, con el que un cliente o persona reconoce una marca.
-                </span>
+                Es un símbolo de identificación, con el que un cliente o persona reconoce una marca.
             </li>
-            <li class="list-group-item bg-white">
-                <strong>Orden</strong>
+            <li>
+                <b>Orden</b>
                 <br>
-                <span>
-                    En un sitio web, es importante presentar la información de forma ordenada para que los usuarios
-                    puedan comprender y encontrar contenido de forma fácil.
-                </span>
+                En un sitio web, es importante presentar la información de forma ordenada para que los usuarios
+                puedan comprender y encontrar contenido de forma fácil.
             </li>
-            <li class="list-group-item bg-white">
-                <strong>Fácil de usar</strong>
+            <li>
+                <b>Fácil de usar</b>
                 <br>
-                <span>
-                    El sitio web debe ser fácil de usar, ofrecer una navegación limpia y adecuada.
-                </span>
+                El sitio web debe ser fácil de usar, ofrecer una navegación limpia y adecuada.
             </li>
         </ul>
         <br>
@@ -53,7 +48,7 @@
             Inicie ideando y creando un boceto con las iniciales de mi nombre.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/logo_sketch.webp') }}" alt="logo-sketch">
+            <img class="img-fluid" src="{{ asset('build/assets/media/portfolio/logo_sketch.webp') }}" alt="logo-sketch">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
@@ -61,7 +56,7 @@
             elegí los colores (verde y turquesa).
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/image/logo.webp') }}" alt="logo">
+            <img class="img-fluid" src="{{ asset('build/assets/image/logo.webp') }}" alt="logo">
         </div>
         <br><br>
         <h5>Diseño del sitio</h5>
@@ -70,7 +65,7 @@
             Estos son borradores para representar las ideas del diseño.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/sketches.webp') }}" alt="sketches">
+            <img class="img-fluid" src="{{ asset('build/assets/media/portfolio/sketches.webp') }}" alt="sketches">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
@@ -78,7 +73,7 @@
             permite visualizar el contenido que estará presente en cada pantalla de manera abstracta.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/wireframes.webp') }}" alt="wireframes">
+            <img class="img-fluid" src="{{ asset('build/assets/media/portfolio/wireframes.webp') }}" alt="wireframes">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
@@ -87,7 +82,7 @@
             animaciones).
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/high_fidelity.webp') }}" alt="high_fidelity">
+            <img class="img-fluid" src="{{ asset('build/assets/media/portfolio/high_fidelity.webp') }}" alt="high_fidelity">
         </div>
         <br>
         <p class="text-start" style="color: #535353;">
@@ -95,7 +90,7 @@
             o sistema.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/media/portfolio/user_flow_diagram_1.webp') }}" alt="user-flow-diagram">
+            <img class="img-fluid" src="{{ asset('build/assets/media/portfolio/user_flow_diagram_1.webp') }}" alt="user-flow-diagram">
         </div>
         <p class="text-start mt-2" style="color: #535353;">
             El flujo de interacción es importante para que el usuario pueda moverse libremente entre las diferentes páginas/secciones,
@@ -106,7 +101,7 @@
             Para concluir el resumen del diseño de este proyecto, genere el siguiente prototipo.
         </p>
         <div class="col-md-10">
-            <video class="img-fluid border" src="{{ asset('build/assets/media/portfolio/prototype.mp4') }}" alt="portfolio-video" controls preload="auto">
+            <video class="img-fluid" src="{{ asset('build/assets/media/portfolio/prototype.mp4') }}" alt="portfolio-video" controls preload="auto">
                 <p>Not supported...</p>
             </video>
         </div>
