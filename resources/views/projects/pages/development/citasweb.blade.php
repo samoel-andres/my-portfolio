@@ -33,7 +33,7 @@
                     y a su vez, cada componente esta formado por 3 archivos clave (HTML, CSS y TypeScript).
                 </p>
                 <div class="col-md-10 ms-3">
-                    <img class="img-fluid border" src="{{ asset('build/assets/image/other/components_angular.webp') }}" alt="components-angular">
+                    <img class="img-fluid" src="{{ asset('build/assets/image/other/components_angular.webp') }}" alt="components-angular">
                 </div>
                 <br>
                 <p class="text-start ms-3" style="color: #535353;">
@@ -42,7 +42,7 @@
                     archivos ya que son varios componentes y archivos extensos.
                 </p>
                 <div class="col-md-10 ms-3">
-                    <div id="evidences-carousel" class="carousel slide border" data-bs-ride="carousel">
+                    <div id="evidences-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active text-center" data-bs-interval="9500">
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_1.webp') }}" alt="evidence-1">
@@ -142,7 +142,7 @@ function_name(object-data: any) {
                     responsiva, lo que permite que sea accesible desde cualquier dispositivo (PC, Laptop o Móvil)..
                 </p>
                 <div class="col-md-10 ms-3">
-                    <div id="results-carousel" class="carousel slide border" data-bs-ride="carousel">
+                    <div id="results-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active text-center" data-bs-interval="9000">
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_1.webp') }}" alt="result-1">
@@ -182,7 +182,7 @@ function_name(object-data: any) {
                     </div>
                 </div>
                 <br>
-                <div class="col-md-10 ms-3 border">
+                <div class="col-md-10 ms-3">
                     <img class="img-fluid" src="{{ asset('build/assets/image/other/result_devices.webp') }}" alt="result-devices">
                 </div>
                 <br>
@@ -195,7 +195,7 @@ function_name(object-data: any) {
                     ser configurado por el administrador del sistema y puede especificar varios destinatarios.
                 </p>
                 <div class="col-md-10 ms-3">
-                    <img class="img-fluid border" src="{{ asset('build/assets/image/other/result_10.webp') }}" alt="result-10">
+                    <img class="img-fluid" src="{{ asset('build/assets/image/other/result_10.webp') }}" alt="result-10">
                 </div>
                 <br>
             </li>
@@ -215,7 +215,7 @@ function_name(object-data: any) {
             existencia del respositorio.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_14.webp') }}" alt="evidence-14">
+            <img class="img-fluid" src="{{ asset('build/assets/image/other/evidence_14.webp') }}" alt="evidence-14">
         </div>
         <br>
         <div class="row justify-content-around">
