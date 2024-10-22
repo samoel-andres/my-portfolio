@@ -40,7 +40,7 @@
                     contenido de la API, la hace escalable, fácil de comprender y mantener.
                 </p>
                 <div class="col-md-10 ms-3">
-                    <img class="img-fluid border" src="{{ asset('build/assets/image/other/scaffold_api.webp') }}" alt="components-angular">
+                    <img class="img-fluid" src="{{ asset('build/assets/image/other/scaffold_api.webp') }}" alt="components-angular">
                 </div>
                 <br>
             </li>
@@ -214,7 +214,7 @@ OOPS, UNEXPECTED WRONG
             forma el código es privado, adjunto evidencia de la existencia del repositorio.
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_13.webp') }}" alt="evidence-13">
+            <img class="img-fluid" src="{{ asset('build/assets/image/other/evidence_13.webp') }}" alt="evidence-13">
         </div>
         <br>
         <div class="row justify-content-around">
