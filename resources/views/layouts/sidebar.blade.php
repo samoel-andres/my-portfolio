@@ -9,10 +9,10 @@
                     Mi portafolio (Web)
                 </a>
                 <a class="list-group-item list-group-item-action {!! (Request::path()) == 'projects/ux-ui-design/onstore-app' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.designonstore') }}">
-                    On-Store (App)
+                    ON Store (App)
                 </a>
                 <a class="list-group-item list-group-item-action {!!(Request::path()) == 'projects/ux-ui-design/icecream' ? 'bg-active' : 'bg-white' !!}" href="{{ route('projects.designicecream') }}">
-                    Ice Cream (Web)
+                    ICE Cream (Web)
                 </a>
             </div>
         </div>
