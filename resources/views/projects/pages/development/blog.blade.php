@@ -198,7 +198,7 @@ public function rules(): array {
                     A continuación, muestro una breve galeria del desarrollo.
                 </p>
                 <div class="col-md-10 ms-3">
-                    <div id="evidence-carousel" class="carousel slide border" data-bs-ride="carousel">
+                    <div id="evidence-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active text-center" data-bs-interval="9500">
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_15.webp') }}" alt="evidence-15">
@@ -233,7 +233,7 @@ public function rules(): array {
                     Finalmente, muestro una galeria con las interfaces realizadas y funcionando.
                 </p>
                 <div class="col-md-10 ms-3">
-                    <div id="results-carousel" class="carousel slide border" data-bs-ride="carousel">
+                    <div id="results-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active text-center" data-bs-interval="10000">
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/result_11.webp') }}" alt="result-11">
@@ -279,7 +279,7 @@ public function rules(): array {
             mi <a style="color: #006064;" href="https://github.com/samoel-andres" target="_blank">GitHub</a>, 
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_19.webp') }}" alt="evidence-19">
+            <img class="img-fluid" src="{{ asset('build/assets/image/other/evidence_19.webp') }}" alt="evidence-19">
         </div>
         <br>
         <div class="row justify-content-around">
