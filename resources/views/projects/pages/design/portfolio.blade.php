@@ -16,6 +16,7 @@
         <h3>Mi portafolio</h3>
         <span class="span-silver">UX | UI</span>
         <span class="span-silver">Web site</span>
+        <span class="span-silver">Figma</span>
         <span class="span-silver">Adobe XD</span>
         <br><br><br>
         <h5>El reto</h5>
