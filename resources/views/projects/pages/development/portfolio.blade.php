@@ -37,7 +37,7 @@
                     evitando tener que escribir repetidamente la misma sintaxis de marcado (HTML).
                 </p>
                 <div class="col-md-10 ms-3">
-                    <img class="img-fluid border" src="{{ asset('build/assets/image/other/interfaces_portfolio.webp') }}" alt="components-angular">
+                    <img class="img-fluid" src="{{ asset('build/assets/image/other/interfaces_portfolio.webp') }}" alt="components-angular">
                 </div>
                 <br>
                 <p class="text-start ms-3" style="color: #535353;">
@@ -45,7 +45,7 @@
                     se visualiza contenido de algunos archivos ya que son bastantes y extensos.
                 </p>
                 <div class="col-md-10 ms-3">
-                    <div id="evidence-carousel" class="carousel slide border" data-bs-ride="carousel">
+                    <div id="evidence-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active text-center" data-bs-interval="9000">
                                 <img class="d-block w-100" src="{{ asset('build/assets/image/other/evidence_20.webp') }}" alt="evidence-11">
@@ -76,7 +76,7 @@
                     los que se visualiza.
                 </p>
                 <div class="col-md-10 ms-3">
-                    <img class="img-fluid border" src="{{ asset('build/assets/image/other/devices_web_portfolio.webp') }}" alt="result-devices">
+                    <img class="img-fluid" src="{{ asset('build/assets/image/other/devices_web_portfolio.webp') }}" alt="result-devices">
                 </div>
                 <br>
             </li>
@@ -88,7 +88,7 @@
             proyecto en mi <a style="color: #006064;" href="https://github.com/samoel-andres" target="_blank">GitHub</a>, 
         </p>
         <div class="col-md-10">
-            <img class="img-fluid border" src="{{ asset('build/assets/image/other/evidence_22.webp') }}" alt="evidence-22">
+            <img class="img-fluid" src="{{ asset('build/assets/image/other/evidence_22.webp') }}" alt="evidence-22">
         </div>
         <br>
         <div class="row justify-content-around">
