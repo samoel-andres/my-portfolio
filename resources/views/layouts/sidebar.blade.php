@@ -48,7 +48,7 @@
     <br><br><br>
 </div>
 
-<div class="col-md-3 col-md-8 py-1 bg-white fade-in" style="display: {!! (Request::path()) == 'projects' ? '' : 'none' !!};">
+<div class="col-md-3 col-md-8 py-1 bg-white fade-in mb-5 pb-5" style="display: {!! (Request::path()) == 'projects' ? '' : 'none' !!};">
     <h3>Aviso</h3>
     <p class="text-start" style="color: #535353;">
         Considere que la información sobre los proyectos es resumida e informativa, sin embargo,
