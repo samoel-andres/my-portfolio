@@ -113,7 +113,7 @@
             </div>
             <br>
             <h5>Conoce el sitio web</h5>
-            <div class="col-md-10">
+            <div class="col-md-10 mt-4">
                 <video class="img-fluid" style="width: 100%;" src="{{ asset('build/assets/media/icecream/prototype.mp4') }}" alt="ice-cream-video" controls preload="auto">
                     <p>not supported...</p>
                 </video>
