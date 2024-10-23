@@ -22,9 +22,6 @@
                     Siempre esta en busca de nuevos desafíos que le permitan
                     continuar su crecimiento y le ayuden a mejorar. Ha trabajado en
                     proyectos escolares e instituciones privadas.
-                    <br><br>
-                    <b>Su logro más reciente:</b> Desarrollo de un sistema de citas
-                    para una entidad privada.
                 </p>
                 <a class="btn btn-animate floating-3" href="{{ route('projects.index') }}">
                     <span>Mis proyectos</span>
