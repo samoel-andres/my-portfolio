@@ -98,16 +98,16 @@
             <br>
             <h5>Prototipo</h5>
             <div class="row">
-                <div class="col-md-5 m-1 p-3" style="border-radius: 15px; background-color: #ececec;">
+                <div class="col-md-5 m-1 p-3" style="border-radius: 15px; background-color: rgb(140, 159, 170, 0.05);">
                     <img class="img-fluid" src="{{ asset('build/assets/media/icecream/view_1.webp') }}" alt="view-1">
                 </div>
-                <div class="col-md-5 m-1 p-3" style="border-radius: 15px; background-color: #ececec;">
+                <div class="col-md-5 m-1 p-3" style="border-radius: 15px; background-color: rgb(140, 159, 170, 0.05);">
                     <img class="img-fluid" src="{{ asset('build/assets/media/icecream/view_2.webp') }}" alt="view-2">
                 </div>
-                <div class="col-md-5 m-1 p-3" style="border-radius: 15px; background-color: #ececec;">
+                <div class="col-md-5 m-1 p-3" style="border-radius: 15px; background-color: rgb(140, 159, 170, 0.05);">
                     <img class="img-fluid" src="{{ asset('build/assets/media/icecream/view_3.webp') }}" alt="view-3">
                 </div>
-                <div class="col-md-5 m-1 p-3" style="border-radius: 15px; background-color: #ececec;">
+                <div class="col-md-5 m-1 p-3" style="border-radius: 15px; background-color: rgb(140, 159, 170, 0.05);">
                     <img class="img-fluid" src="{{ asset('build/assets/media/icecream/view_4.webp') }}" alt="view-4">
                 </div>
             </div>
