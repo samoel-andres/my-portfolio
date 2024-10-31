@@ -14,4 +14,10 @@ En este caso el desarrollo no tiene interacción con ninguna base de datos dado 
 
 ## :package: Resultados
 
-Al acceder al sitio se observa una interfaz donde se muestra un breve texto de bienvenida, posteriormente, para navegar através de las distintas páginas que existen se puede hacer por medio de la barra de navegación o en su defecto pulsando los botones flotantes que se muestran, los cuales le guiarán página por página. <a href="https://samoelandres.com/">Acceder al sitio</a>
+Al acceder al sitio se observa una interfaz donde se muestra un breve texto de bienvenida, posteriormente, para navegar através de las distintas páginas que existen se puede hacer por medio de la barra de navegación o en su defecto pulsando los botones flotantes que se muestran, los cuales te guiarán página por página. 
+<br><br>
+Visita mi portafolioo web <a href="https://samoelandres.com/">aquí</a>.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/my-portfolio/main/public/evidence/home_page.JPG" alt="Página de inicio">
+</p>
