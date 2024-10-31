@@ -21,3 +21,33 @@ Visita mi portafolioo web <a href="https://samoelandres.com/">aquí</a>.
 <p align="center">
     <img src="https://raw.githubusercontent.com/samoel-andres/my-portfolio/main/public/evidence/home_page.JPG" alt="Página de inicio">
 </p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/my-portfolio/main/public/evidence/about_part_1.JPG" alt="Acerca de 1">
+</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/my-portfolio/main/public/evidence/about_part_2.HPG" alt="Acerca de 2">
+</p>
+
+En mi sección de proyectos se muestra la lista de los proyectos mas importantes que he realizado.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/my-portfolio/main/public/evidence/project_list.JPG" alt="Lista de los proyectos">
+</p>
+
+Cuando se pulsa sobre algun proyecto de la lista se muestran algunos detalles y un poco sobre el proceso que realice.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/my-portfolio/main/public/evidence/project.JPG" alt="Detalles de proyecto">
+</p>
+
+Para finalizar agregué una sección de contacto en la que se muestra un breve formulario para contactarme.
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/samoel-andres/my-portfolio/main/public/evidence/contact.JPG" alt="Página de contacto">
+</p>
+
+## :pen: Conclusión
+
+He quedado satisfecho con los resultados obtenidos, el deseño de las interfaces y la interacción de usuario através de la plataforma han sido una oportunidad para practicar algo distinto que también me encanta, lo cual es el diseño UX/UI, esto es algo nuevo que sigo aprendiendo y sumando a mi portafolio y experiencia.
