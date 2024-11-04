@@ -27,7 +27,7 @@ Visita mi portafolioo web <a href="https://samoelandres.com/">aquí</a>.
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/samoel-andres/my-portfolio/main/public/evidence/about_part_2.HPG" alt="Acerca de 2">
+    <img src="https://raw.githubusercontent.com/samoel-andres/my-portfolio/main/public/evidence/about_part_2.JPG" alt="Acerca de 2">
 </p>
 
 En mi sección de proyectos se muestra la lista de los proyectos mas importantes que he realizado.
