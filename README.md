@@ -41,3 +41,7 @@ Sigue los pasos para ejecutar el proyecto localmente:
 3. Configura tu servidor web para que apunte al directorio del proyecto, asegurándote de que la configuración del **DocumentRoot** esté correcta (si usas Apache, por ejemplo).
 
 4. Abre el proyecto en tu navegador visitando la URL configurada (por ejemplo `http:/localhost/my-portfolio/`
+
+## Uso
+
+Una vez que el servidor esté en funcionamiento, puedes acceder a las diferentes rutas de la aplicación. El controlador correspondiente se encargará de manejar la solicitud y presentar la vista adecuada. Las rutas son gestionadas por el controlador principal.
