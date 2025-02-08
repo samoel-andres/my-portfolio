@@ -6,6 +6,8 @@
 
 Este repositorio contiene el código de mi sitio web personal. Muestra mis habilidades, proyectos y experiencia como desarrollador.
 
+![Interfaz principal](public/evidence/home_page.JPG)
+
 ## Características
 
 - **Diseño responsive**: Funciona a la perfección en todos los dispositivos (escritorio, tableta y móvil).
